@@ -14,4 +14,6 @@
 
 从gitee下载下来编辑然后推动回去4
 
-deploy.sh脚本测试
+deploy.sh脚本测试1
+
+deploy.sh脚本测试2

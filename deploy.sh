@@ -1,4 +1,7 @@
 #! /bin/bash
+# 使用说明
+# 1. 编辑、编译、验证电子书
+# 2. 直接执行此脚本将master和gh-pages分支发布到gitee仓库
 
 # 提交到master
 git add .                             # 将源文件暂存

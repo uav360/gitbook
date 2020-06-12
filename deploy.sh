@@ -26,4 +26,4 @@ git commit -a -m "commit gh-pages xxx"  # 提交到本地仓库
 # 发布所有分支
 git push -f --all origin    # 推送回远程代码仓库，如果没有更新，手动更新码云pages服务。
 
-git checkout master         # 返回master分支
+git checkout -f master      # 返回master分支

@@ -1,8 +1,9 @@
 #! /bin/bash
 # 使用说明
-# 1. 配置自动保存密码: git config --global credential.helper store
-# 2. 编辑、编译、验证电子书
-# 3. 直接执行此脚本将master和gh-pages分支发布到gitee仓库
+# 1. 关闭证书检查: git config --global http.sslverify false
+# 2. 配置自动保存密码: git config --global credential.helper store
+# 3. 编辑、编译、验证电子书
+# 4. 直接执行此脚本将master和gh-pages分支发布到gitee仓库
 
 # 获取当前分支提交数，加1，构造下次提交信息。
 commit_count=`git rev-list --count HEAD`

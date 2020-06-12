@@ -23,8 +23,8 @@ cp -r _book/* .          # 将静态站点文件复制到gitbook根目录
 git add .                # 将源文件暂存
 git commit -a -m "commit gh-pages xxx"  # 提交到本地仓库
 
-# 发布所有分支
+# 发布所有分支               # 码云刷新页面: https://gitee.com/uav360/gitbook/pages
 git push -f --all origin    # 推送回远程代码仓库，如果没有更新，手动更新码云pages服务。
 
 # 返回master分支
-git checkout -f master      
+git checkout -f master    

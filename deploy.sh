@@ -4,7 +4,7 @@
 # 2. 编辑、编译、验证电子书
 # 3. 直接执行此脚本将master和gh-pages分支发布到gitee仓库
 
-# 获取当前分支提交数
+# 获取当前分支提交数，加1，构造下次提交信息。
 commit_count=`git rev-list --count HEAD`
 let commit_count++
 

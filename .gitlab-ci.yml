@@ -1,0 +1,15 @@
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/plain-html
+pages:
+  stage: deploy
+  tags:
+    - tag1           #只有标签为XX的runner才会执行这个任务 
+  script:
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+      - gh-pages     #仅对gh-pages分支进行操作，与Github/Gitee操作方式兼容

@@ -1,0 +1,117 @@
+```plantuml
+@startuml
+
+	Class Stage
+	Class Timeout {
+		+constructor:function(cfg)
+		+timeout:function(ctx)
+		+overdue:function(ctx)
+		+stage: Stage
+	}
+ 	Stage <|-- Timeout
+
+@enduml
+```,```plantuml
+@startmindmap
+* Debian
+** Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** LMDE
+** SolydXK
+** SteamOS
+** Raspbian with a very long name
+*** <s>Raspmbc</s> => OSMC
+*** <s>Raspyfi</s> => Volumio
+@endmindmap
+```,```plantuml
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+skinparam sequence {
+ArrowColor DeepSkyBlue
+ActorBorderColor DeepSkyBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+ParticipantBorderColor DeepSkyBlue
+ParticipantBackgroundColor DodgerBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor aqua
+ActorFontColor DeepSkyBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+actor User
+participant "First Class" as A
+participant "Second Class" as B
+participant "Last Class" as C
+User -> A: DoWork
+activate A
+A -> B: Create Request
+activate B
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+destroy C
+B --> A: Request Created
+deactivate B
+A --> User: Done
+deactivate A
+@enduml
+```,```plantuml
+@startuml
+skinparam handwritten true
+skinparam backgroundColor #EEEBDC
+actor 使用者
+participant "頭等艙" as A
+participant "第二類" as B
+participant "最後一堂課" as 別的東西
+使用者 -> A: 完成這項工作
+activate A
+A -> B: 創建請求
+activate B
+B -> 別的東西: 創建請求
+activate 別的東西
+別的東西 --> B: 這項工作完成
+destroy 別的東西
+B --> A: 請求創建
+deactivate B
+A --> 使用者: 做完
+deactivate A
+@enduml
+```,```plantuml
+@startuml
+!include <tupadr3/common>
+!include <tupadr3/devicons/mysql>
+DEV_MYSQL(db1)
+DEV_MYSQL(db2,label of db2)
+DEV_MYSQL(db3,label of db3,database)
+DEV_MYSQL(db4,label of db4,database,red) #DeepSkyBlue
+@enduml
+```,```plantuml
+@startuml
+!include <tupadr3/common>
+!include <tupadr3/font-awesome/server>
+!include <tupadr3/font-awesome/database>
+title Styling example
+FA_SERVER(web1,web1)
+FA_SERVER(web2,web2)
+FA_SERVER(web3,web3)
+FA_SERVER(web4,web4)
+#Green
+#Yellow
+#Blue
+#YellowGreen
+FA_DATABASE(db1,LIVE,database,white) #RoyalBlue
+FA_DATABASE(db2,SPARE,database) #Red
+db1 <--> db2
+web1 <--> db1
+web2 <--> db1
+web3 <--> db1
+web4 <--> db1
+@enduml
+```

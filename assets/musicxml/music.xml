@@ -1,0 +1,15 @@
+<note>
+    <pitch>
+      <step>E</step>
+      <alter>-1</alter>
+	  <octave>5</octave>
+    </pitch>
+    <duration>24</duration>
+    <tie type="start"/>
+    <lyric>
+      <syllabic>end</syllabic>
+      <text>meil</text>
+      <extend/>
+    </lyric>
+</note>
+

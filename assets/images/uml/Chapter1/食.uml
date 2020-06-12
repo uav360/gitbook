@@ -1,0 +1,9 @@
+```plantuml
+@startlatex
+\sideset{^1_2}{^3_4}\bigotimes
+@endlatex
+```,```plantuml
+@startlatex
+E=mc^2
+@endlatex
+```

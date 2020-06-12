@@ -6,6 +6,7 @@
 
 # 获取当前分支提交数
 commit_count=`git rev-list --count HEAD`
+let commit_count++
 
 # 提交到master
 git add .                             # 将源文件暂存

@@ -30,7 +30,7 @@
     * [第二章 第13节：Ditaa diagram](2-Chapter/13-Ditaa diagram.md)
     * [第二章 第14节：甘特图 ](2-Chapter/14-甘特图 .md)
     * [第二章 第15节：思维导图](2-Chapter/15-思维导图.md)
-    * [第二章 第16节：Work Breakdown Structure diagram](2-Chapter/16-Work Breakdown Structure diagram.md)
+    * [第二章 第16节：工作分解结构图](2-Chapter/16-工作分解结构图.md)
     * [第二章 第17节：数学公式](2-Chapter/17-数学公式.md)
     * [第二章 第18节：Entity Relationship diagram](2-Chapter/18-Entity Relationship diagram.md)
     * [第二章 第19节：nwdiag](2-Chapter/19-nwdiag.md)

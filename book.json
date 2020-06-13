@@ -137,7 +137,7 @@
 		"-ad@0.0.4 ",
 		"book-summary-scroll-position-saver@0.0.7",
                 "-theme-api@1.1.2",
-                "image-captions@3.1.0 ",
+                "-image-captions@3.1.0 ",
                 "-styles-sass@1.1.0",
 		"-styles-less@1.0.0"		
       ],

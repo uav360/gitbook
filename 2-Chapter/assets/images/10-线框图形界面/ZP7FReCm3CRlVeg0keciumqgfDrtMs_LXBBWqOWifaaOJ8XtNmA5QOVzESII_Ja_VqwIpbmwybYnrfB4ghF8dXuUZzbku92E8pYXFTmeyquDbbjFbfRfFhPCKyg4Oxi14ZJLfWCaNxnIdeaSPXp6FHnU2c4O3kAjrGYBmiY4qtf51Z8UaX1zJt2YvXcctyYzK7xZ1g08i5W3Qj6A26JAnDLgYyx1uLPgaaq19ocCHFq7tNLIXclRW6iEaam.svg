@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="325px" preserveAspectRatio="none" style="width:514px;height:325px;" version="1.1" viewBox="0 0 514 325" width="514px" zoomAndPan="magnify"><defs><filter height="300%" id="f19eufh9v6l5pm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="81.5" cy="18" fill="#000000" filter="url(#f19eufh9v6l5pm)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f19eufh9v6l5pm)" height="119" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="151" x="6" y="68"/><svg x="16" y="78"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="6" y="17.1387">an example</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="118" x="6" y="33.1074">choose one option</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="26" y="49.0762">one</text><ellipse cx="13" cy="44.9219" fill="none" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="22" x="26" y="65.0449">two</text><ellipse cx="13" cy="60.8906" fill="none" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.5;"/><rect fill="#EEEEEE" height="17.9688" rx="5" ry="5" style="stroke: #000000; stroke-width: 2.5;" width="20" x="8.5" y="72.375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="15" x="11" y="85.5137">ok</text><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="125" y1="5" y2="5"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="125" y1="93.8438" y2="93.8438"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="125" x2="125" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="125" x2="125" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="68.875" y2="93.8438"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="52.9063" y2="68.875"/><line style="stroke: #000000; stroke-width: 1.0;" x1="125" x2="125" y1="68.875" y2="93.8438"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="36.9375" y2="52.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="125" x2="125" y1="52.9063" y2="68.875"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="125" x2="125" y1="36.9375" y2="52.9063"/></g></svg><rect fill="#FEFECE" filter="url(#f19eufh9v6l5pm)" height="97" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="169" x="177" y="79"/><svg x="187" y="89"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="6" y="17.1387">please wait</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="136" x="6" y="33.1074">operation in progress</text><path d="M11,37.9375 C8.797,37.9375 7,39.7345 7,41.9375 C7,44.1405 8.797,45.9375 11,45.9375 C13.203,45.9375 15,44.1405 15,41.9375 C15,39.7345 13.203,37.9375 11,37.9375 M11,38.9375 C12.663,38.9375 14,40.2745 14,41.9375 C14,43.6005 12.663,44.9375 11,44.9375 C9.337,44.9375 8,43.6005 8,41.9375 C8,40.2745 9.337,38.9375 11,38.9375 M10.5,39.9375 L10.5,42.1565 L10.656,42.2815 L11.156,42.7815 L11.5,43.1565 L12.219,42.4375 L11.844,42.0935 L11.5,41.7495 L11.5,39.9365 L10.5,39.9365 " fill="#000000" style="stroke: ; stroke-width: 0.0; stroke-dasharray: ;"/><rect fill="#EEEEEE" height="17.9688" rx="5" ry="5" style="stroke: #000000; stroke-width: 2.5;" width="52" x="8.5" y="50.4375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="14" y="63.5762">cancel</text><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="143" y1="5" y2="5"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="143" y1="71.9063" y2="71.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="143" x2="143" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="143" x2="143" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="46.9375" y2="71.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="36.9375" y2="46.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="143" x2="143" y1="46.9375" y2="71.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="143" x2="143" y1="36.9375" y2="46.9375"/></g></svg><rect fill="#FEFECE" filter="url(#f19eufh9v6l5pm)" height="87" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="137" x="366" y="84"/><svg x="376" y="94"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="56" x="6" y="17.1387">success</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="104" x="6" y="33.1074">congratulations!</text><rect fill="#EEEEEE" height="17.9688" rx="5" ry="5" style="stroke: #000000; stroke-width: 2.5;" width="20" x="8.5" y="40.4375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="15" x="11" y="53.5762">ok</text><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="111" y1="5" y2="5"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="111" y1="61.9063" y2="61.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="111" x2="111" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="111" x2="111" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="36.9375" y2="61.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="111" x2="111" y1="36.9375" y2="61.9063"/></g></svg><rect fill="#FEFECE" filter="url(#f19eufh9v6l5pm)" height="87" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="106" x="208.5" y="227"/><svg x="218.5" y="237"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="36" x="6" y="17.1387">error</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="73" x="6" y="33.1074">failed, sorry</text><rect fill="#EEEEEE" height="17.9688" rx="5" ry="5" style="stroke: #000000; stroke-width: 2.5;" width="20" x="8.5" y="40.4375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="15" x="11" y="53.5762">ok</text><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="80" y1="5" y2="5"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="80" y1="61.9063" y2="61.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="80" x2="80" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="80" x2="80" y1="5" y2="20.9688"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="36.9375" y2="61.9063"/><line style="stroke: #000000; stroke-width: 1.0;" x1="5" x2="5" y1="20.9688" y2="36.9375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="80" x2="80" y1="36.9375" y2="61.9063"/></g></svg><!--MD5=[ecc1f8fc4e6f2f815c22223fc22a51a5]
+link start to choose--><path d="M81.5,28.165 C81.5,36.35 81.5,49.129 81.5,62.798 " fill="none" id="start-&gt;choose" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="81.5,67.867,85.5,58.867,81.5,62.867,77.5,58.867,81.5,67.867" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f790be3d2d35c45e39aa77dbc77c3277]
+link choose to wait--><path d="M157.086,127.5 C161.878,127.5 166.671,127.5 171.463,127.5 " fill="none" id="choose-&gt;wait" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="176.664,127.5,167.664,123.5,171.664,127.5,167.664,131.5,176.664,127.5" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9fc0cd8d1319dfea5bfb1b390730a70b]
+link wait to success--><path d="M346.311,127.5 C351.117,127.5 355.924,127.5 360.731,127.5 " fill="none" id="wait-&gt;success" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="365.946,127.5,356.946,123.5,360.946,127.5,356.946,131.5,365.946,127.5" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a2c2c3e502a38fe3e9dd4d0bc0c88d80]
+link wait to error--><path d="M261.5,176.236 C261.5,190.752 261.5,206.71 261.5,221.2582 " fill="none" id="wait-&gt;error" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="261.5,226.5491,265.5,217.5491,261.5,221.5491,257.5,217.5491,261.5,226.5491" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dc61f5c2e285faecf3c121819679ed79]
+@startuml
+
+
+
+
+
+(*) - -> "{{
+salt
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+}}" as choose
+-right-> "{{
+salt
+{+
+<b>please wait
+operation in progress
+<&clock>
+[cancel]
+}
+}}" as wait
+wait -right-> "{{
+salt
+{+
+<b>success
+congratulations!
+[ok]
+}
+}}" as success
+wait -down-> "{{
+salt
+{+
+<b>error
+failed, sorry
+[ok]
+}
+}}" as error
+@enduml
+
+PlantUML version 1.2020.09(Sun May 10 18:51:06 CST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_252-8u252-b09-1~16.04-b09
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

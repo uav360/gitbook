@@ -29,20 +29,7 @@ ditaa
 @enduml
 ```
 
-```plantuml
-@startuml
-ditaa
-+--------+   +-------+    +-------+
-|        +---+ ditaa +--> |       |
-|  Text  |   +-------+    |diagram|
-|Document|   |!magic!|    |       |
-|     {d}|   |       |    |       |
-+---+----+   +-------+    +-------+
-    :                         ^
-    |       Lots of work      |
-    +-------------------------+
-@enduml
-```
+![](assets/images/13-Ditaa diagram/IyaiIKpaqjQ50cq51GLj93Q2mrMZ00NQOBaKa4OGsqu19bC3KXEIMb6Y01P2CQSc9JCnlIWn5wZ69J-vD3SrhmIafaOnDp4zCraHR0IAEK1GdL9RWooCgWRi309k1l6i5721E2va4ttoIueLyjCKolEBic5s89k62RG1.png)
 
 你可以在 [这里](http://ditaa.sourceforge.net/) 找到它的完整的文档。  
 
@@ -66,17 +53,7 @@ ditaa(--no-shadows, scale=0.8)
 @enduml
 ```
 
-```plantuml
-@startuml
-ditaa(--no-shadows, scale=0.8)
-/--------\   +-------+
-|cAAA    +---+Version|
-|  Data  |   |   V3  |
-|  Base  |   |cRED{d}|
-|     {s}|   +-------+
-\---+----/
-@enduml
-```
+![](assets/images/13-Ditaa diagram/IyaiIKpKqDNDozSjpaXCoIylrb4eJaxCIRKrqBFGvDBNXO8O1GK5RIXRcwicsT7HKG4gf1sMMbIScPzNmrMZeE2IM9Aee01aW76OCP062Jib5gT2XPE3N5sgKsh1ma1GNLnRWs9s38W4CVK1.png)
 
 只支持PNG格式。
 

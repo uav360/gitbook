@@ -34,6 +34,7 @@
     * [第二章 第17节：数学公式](2-Chapter/17-数学公式.md)
     * [第二章 第18节：Entity Relationship diagram](2-Chapter/18-Entity Relationship diagram.md)
     * [第二章 第19节：nwdiag](2-Chapter/19-nwdiag.md)
+    * [第二章 第20节：PlantUML绘制23种设计模式](2-Chapter/20-PlantUML绘制23种设计模式.md)
 * [第三章 Mermaid 图表指导手册](3-Chapter/0-README.md)
     * [第三章 第1节：Flowchart](3-Chapter/1-Flowchart.md)
     * [第三章 第2节：Sequence diagram](3-Chapter/2-Sequence diagram.md)

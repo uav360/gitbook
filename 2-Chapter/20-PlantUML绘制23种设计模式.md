@@ -9,7 +9,7 @@
 * 类的关系: https://www.cnblogs.com/pangjianxin/p/7877868.html
 * 类的关系: https://www.cnblogs.com/qianpangzi/p/10842672.html
 
-UML类图几种关系的总结
+UML类图几种关系的总结  
 `泛化` 实线三角指向父类；  
 `实现` 虚线三角指向接口；  
 

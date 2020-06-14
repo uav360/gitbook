@@ -1,5 +1,28 @@
 # 第二章 第20节：PlantUML绘制23种设计模式
-原文链接：https://blog.csdn.net/u010144805/article/details/82415385
+
+参考链接：
+
+* 设计模式概念: https://blog.csdn.net/zxh2075/article/details/80164113
+* 设计模式PlantUML: https://blog.csdn.net/u010144805/article/details/82415385
+* 设计模式C++: https://gitee.com/micooz/DesignPattern
+* 设计模式C++: https://github.com/micooz/DesignPattern
+* 类的关系: https://www.cnblogs.com/pangjianxin/p/7877868.html
+* 类的关系: https://www.cnblogs.com/qianpangzi/p/10842672.html
+
+UML类图几种关系的总结
+`泛化` 实线三角指向父类；  
+`实现` 虚线三角指向接口；  
+
+`组合` 实心菱形精密关联不可分，是组合；  
+`聚合` 空心菱形能分离而独立存在，是聚合；  
+
+`关联` 实线箭头指向关联，箭头代表`拥有`，箭头指向被拥有者；  
+`依赖` 虚线箭头指向依赖；  
+
+各种关系的强弱顺序：  
+`泛化= 实现> 组合> 聚合> 关联> 依赖`
+
+![img](assets/images/20-PlantUML绘制23种设计模式/2799767-3f16972d7b062110.png)
 
 ## 单例模式(Singleton pattern)
 

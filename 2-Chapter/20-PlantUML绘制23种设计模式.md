@@ -2,10 +2,11 @@
 
 参考链接：
 
-* 设计模式概念: https://blog.csdn.net/zxh2075/article/details/80164113
-* 设计模式PlantUML: https://blog.csdn.net/u010144805/article/details/82415385
-* 设计模式C++: https://gitee.com/micooz/DesignPattern
-* 设计模式C++: https://github.com/micooz/DesignPattern
+* 设计模式概念`描述不一致`: https://blog.csdn.net/zxh2075/article/details/80164113
+* 设计模式概念`丰富`: https://www.runoob.com/design-pattern/design-pattern-tutorial.html
+* 设计模式`PlantUML`: https://blog.csdn.net/u010144805/article/details/82415385
+* 设计模式`C++`: https://gitee.com/micooz/DesignPattern
+* 设计模式`C++`: https://github.com/micooz/DesignPattern
 * 类的关系: https://www.cnblogs.com/pangjianxin/p/7877868.html
 * 类的关系: https://www.cnblogs.com/qianpangzi/p/10842672.html
 
@@ -708,9 +709,9 @@ package "class Decorator(装饰模式)" #DDDDDD {
 @enduml
 ```
 
-## 亨元模式(FlyweightPattern)
+## 享元模式(FlyweightPattern)
 
-如想让某个类的一个实例能用来提供许多"虚拟实例", 就使用蝇量模式.
+如想让某个类的一个实例能用来提供许多"虚拟实例", 就使用享元模式.
 
 ```markdown
 @startuml

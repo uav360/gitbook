@@ -2,8 +2,9 @@
 
 参考链接：
 
-* 设计模式概念`描述不一致`: https://blog.csdn.net/zxh2075/article/details/80164113
+* 设计模式概念`含结构说明`: http://c.biancheng.net/view/1317.html
 * 设计模式概念`丰富`: https://www.runoob.com/design-pattern/design-pattern-tutorial.html
+* 设计模式概念`描述不一致`: https://blog.csdn.net/zxh2075/article/details/80164113
 * 设计模式`PlantUML`: https://blog.csdn.net/u010144805/article/details/82415385
 * 设计模式`C++`: https://gitee.com/micooz/DesignPattern
 * 设计模式`C++`: https://github.com/micooz/DesignPattern
@@ -1771,17 +1772,43 @@ package "class Mediator(中介者模式)" #DDDDDD {
 @enduml
 ```
 
-## 七大设计原则：
-1. 单一职责原则【SINGLE RESPONSIBILITY PRINCIPLE】：一个类负责一项职责.
+## 设计模式的七大原则
 
-2. 里氏替换原则【LISKOV SUBSTITUTION PRINCIPLE】：继承与派生的规则.
+**1、开闭原则（Open Close Principle）**
 
-3. 依赖倒置原则【DEPENDENCE INVERSION PRINCIPLE】：高层模块不应该依赖低层模块，二者都应该依赖其抽象；抽象不应该依赖细节；细节应该依赖抽象。即针对接口编程，不要针对实现编程.
+开闭原则的意思是：**对扩展开放，对修改关闭**。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。简言之，是为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类，后面的具体设计中我们会提到这点。
 
-4. 接口隔离原则【INTERFACE SEGREGATION PRINCIPLE】：建立单一接口，不要建立庞大臃肿的接口，尽量细化接口，接口中的方法尽量少.
+**2、里氏代换原则（Liskov Substitution Principle）**
 
-5. 迪米特法则【LOW OF DEMETER】：低耦合，高内聚.
+里氏代换原则是面向对象设计的基本原则之一。 里氏代换原则中说，`任何基类可以出现的地方，子类一定可以出现。`LSP 是继承复用的基石，只有当派生类可以替换掉基类，且软件单位的功能不受到影响时，基类才能真正被复用，而派生类也能够在基类的基础上增加新的行为。里氏代换原则是对开闭原则的补充。实现开闭原则的关键步骤就是抽象化，而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽象化的具体步骤的规范。
 
-6. 开闭原则【OPEN CLOSE PRINCIPLE】：一个软件实体如类、模块和函数应该对扩展开放，对修改关闭.
+**3、依赖倒转原则（Dependence Inversion Principle）**
 
-7. 组合/聚合复用原则【Composition/Aggregation Reuse Principle(CARP) 】：尽量使用组合和聚合少使用继承的关系来达到复用的原则.
+这个原则是开闭原则的基础，具体内容：针对接口编程，依赖于抽象而不依赖于具体。
+
+`依赖倒置原则（Dependence Inversion Principle）是程序要依赖于抽象接口，不要依赖于具体实现。简单的说就是要求对抽象进行编程，不要对实现进行编程，这样就降低了客户与实现模块间的耦合。`
+
+**4、接口隔离原则（Interface Segregation Principle）**
+
+这个原则的意思是：使用多个隔离的接口，比使用单个接口要好。它还有另外一个意思是：降低类之间的耦合度。由此可见，其实设计模式就是从大型软件架构出发、便于升级和维护的软件设计思想，它强调降低依赖，降低耦合。
+
+`客户端不应该依赖它不需要的接口。一个类对另一个类的依赖应该建立在最小的接口上。`
+
+**5、迪米特法则，又称最少知道原则（Demeter Principle）**
+
+最少知道原则是指：一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。
+
+`迪米特法则（Law of Demeter）又叫作最少知识原则（Least Knowledge Principle 简写LKP），一个类对于其他类知道的越少越好，就是说一个对象应当对其他对象有尽可能少的了解,只和朋友通信，不和陌生人说话。英文简写为: LoD.`
+
+**6、合成复用原则（Composite Reuse Principle）**
+
+合成复用原则是指：尽量使用合成/聚合的方式，而不是使用继承。
+
+**7、 单一职责原则的定义**
+
+单一职责原则（Single Responsibility Principle，SRP）又称单一功能原则，由罗伯特·C.马丁（Robert C. Martin）于《敏捷软件开发：原则、模式和实践》一书中提出的。这里的职责是指类变化的原因，单一职责原则规定`一个类应该有且仅有一个引起它变化的原因`，否则类应该被拆分（There should never be more than one reason for a class to change）。
+
+该原则提出对象不应该承担太多职责，如果一个对象承担了太多的职责，至少存在以下两个缺点：
+1. 一个职责的变化可能会削弱或者抑制这个类实现其他职责的能力；
+2. 当客户端需要该对象的某一个职责时，不得不将其他不需要的职责全都包含进来，从而造成冗余代码或代码的浪费。
+

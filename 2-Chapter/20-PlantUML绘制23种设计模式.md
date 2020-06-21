@@ -3,7 +3,8 @@
 参考链接：
 
 * 设计模式概念`含结构说明`: http://c.biancheng.net/view/1317.html
-* 设计模式概念`丰富`: https://www.runoob.com/design-pattern/design-pattern-tutorial.html
+* 设计模式概念`丰富`:  
+  https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 * 设计模式概念`描述不一致`: https://blog.csdn.net/zxh2075/article/details/80164113
 * 设计模式`PlantUML`: https://blog.csdn.net/u010144805/article/details/82415385
 * 设计模式`C++`: https://gitee.com/micooz/DesignPattern
@@ -33,6 +34,7 @@ UML类图几种关系的总结
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Singleton(单例模式)" #DDDDDD {
 
@@ -51,6 +53,7 @@ package "class Singleton(单例模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Singleton(单例模式)" #DDDDDD {
 
@@ -73,6 +76,7 @@ package "class Singleton(单例模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Builder(生成器模式)" #DDDDDD {
     abstract class Builder
@@ -110,6 +114,7 @@ package "class Builder(生成器模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Builder(生成器模式)" #DDDDDD {
     abstract class Builder
@@ -151,6 +156,7 @@ package "class Builder(生成器模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Protype(原型模式)" #DDDDDD {
     class Protype<< (A,#FF7700) interface>>
@@ -174,6 +180,7 @@ package "class Protype(原型模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Protype(原型模式)" #DDDDDD {
     class Protype<< (A,#FF7700) interface>>
@@ -201,6 +208,7 @@ package "class Protype(原型模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class FactoryMethod(工厂方法模式)" #DDDDDD {
     abstract class Factory
@@ -233,6 +241,7 @@ package "class FactoryMethod(工厂方法模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class FactoryMethod(工厂方法模式)" #DDDDDD {
     abstract class Factory
@@ -269,6 +278,7 @@ package "class FactoryMethod(工厂方法模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class AbstractFactory(抽象工厂模式)" #DDDDDD {
     abstract class AbstractProductA
@@ -337,6 +347,7 @@ package "class AbstractFactory(抽象工厂模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class AbstractFactory(抽象工厂模式)" #DDDDDD {
     abstract class AbstractProductA
@@ -409,6 +420,7 @@ package "class AbstractFactory(抽象工厂模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Proxy(代理模式)" #DDDDDD {
     class Client
@@ -442,6 +454,7 @@ package "class Proxy(代理模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Proxy(代理模式)" #DDDDDD {
     class Client
@@ -479,6 +492,7 @@ package "class Proxy(代理模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Adapter(适配器模式)" #DDDDDD {
     class Target<< (I,#FF7700) Interface>>{
@@ -506,6 +520,7 @@ package "class Adapter(适配器模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Adapter(适配器模式)" #DDDDDD {
     class Target<< (I,#FF7700) Interface>>{
@@ -537,6 +552,7 @@ package "class Adapter(适配器模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Composite(组合模式)" #DDDDDD {
     class Client
@@ -572,6 +588,7 @@ package "class Composite(组合模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Composite(组合模式)" #DDDDDD {
     class Client
@@ -611,6 +628,7 @@ package "class Composite(组合模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Decorator(装饰模式)" #DDDDDD {
 
@@ -662,6 +680,7 @@ package "class Decorator(装饰模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Decorator(装饰模式)" #DDDDDD {
 
@@ -717,6 +736,7 @@ package "class Decorator(装饰模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Flyweight(享元模式)" #DDDDDD {
     class FlyweightFactory{
@@ -745,6 +765,7 @@ package "class Flyweight(享元模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Flyweight(享元模式)" #DDDDDD {
     class FlyweightFactory{
@@ -777,6 +798,7 @@ package "class Flyweight(享元模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Facade(外观模式)" #DDDDDD {
     class Facade{
@@ -799,6 +821,7 @@ package "class Facade(外观模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Facade(外观模式)" #DDDDDD {
     class Facade{
@@ -825,6 +848,7 @@ package "class Facade(外观模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Bridge(桥接模式)" #DDDDDD {
 
@@ -858,6 +882,7 @@ package "class Bridge(桥接模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Bridge(桥接模式)" #DDDDDD {
 
@@ -895,6 +920,7 @@ package "class Bridge(桥接模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Strategy(策略模式)" #DDDDDD {
     interface Strategy
@@ -930,6 +956,7 @@ package "class Strategy(策略模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Strategy(策略模式)" #DDDDDD {
     interface Strategy
@@ -969,6 +996,7 @@ package "class Strategy(策略模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class State(状态模式)" #DDDDDD {
     interface State
@@ -1004,6 +1032,7 @@ package "class State(状态模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class State(状态模式)" #DDDDDD {
     interface State
@@ -1043,6 +1072,7 @@ package "class State(状态模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class ChainOfResponsibility(责任链模式)" #DDDDDD {
     abstract class Handler
@@ -1073,6 +1103,7 @@ package "class ChainOfResponsibility(责任链模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class ChainOfResponsibility(责任链模式)" #DDDDDD {
     abstract class Handler
@@ -1107,6 +1138,7 @@ package "class ChainOfResponsibility(责任链模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Interpreter(解释器模式)" #DDDDDD {
     abstract class AbstractExpression
@@ -1142,6 +1174,7 @@ package "class Interpreter(解释器模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Interpreter(解释器模式)" #DDDDDD {
     abstract class AbstractExpression
@@ -1181,6 +1214,7 @@ package "class Interpreter(解释器模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Comand(命令模式)" #DDDDDD {
     class Invoker
@@ -1224,6 +1258,7 @@ package "class Comand(命令模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Comand(命令模式)" #DDDDDD {
     class Invoker
@@ -1271,6 +1306,7 @@ package "class Comand(命令模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Observer(观察者模式)" #DDDDDD {
     class Subject<< (A,#FF7700) abstract>>
@@ -1307,6 +1343,7 @@ package "class Observer(观察者模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Observer(观察者模式)" #DDDDDD {
     class Subject<< (A,#FF7700) abstract>>
@@ -1347,6 +1384,7 @@ package "class Observer(观察者模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Memento(备忘录模式)" #DDDDDD {
 
@@ -1382,6 +1420,7 @@ package "class Memento(备忘录模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Memento(备忘录模式)" #DDDDDD {
 
@@ -1421,6 +1460,7 @@ package "class Memento(备忘录模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Iterator(迭代器模式)" #DDDDDD {
     class Iterator<< (I,#FF7700) interface>>{
@@ -1459,6 +1499,7 @@ package "class Iterator(迭代器模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Iterator(迭代器模式)" #DDDDDD {
     class Iterator<< (I,#FF7700) interface>>{
@@ -1501,6 +1542,7 @@ package "class Iterator(迭代器模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Template(模板方法模式)" #DDDDDD {
     class AbsTemplate<< (A,#FF7700) abstract>>{
@@ -1526,6 +1568,7 @@ package "class Template(模板方法模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Template(模板方法模式)" #DDDDDD {
     class AbsTemplate<< (A,#FF7700) abstract>>{
@@ -1555,6 +1598,7 @@ package "class Template(模板方法模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Visitor(访问者模式)" #DDDDDD {
     class Visitor<< (I,#FF7700) abstract>>
@@ -1614,6 +1658,7 @@ package "class Visitor(访问者模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Visitor(访问者模式)" #DDDDDD {
     class Visitor<< (I,#FF7700) abstract>>
@@ -1677,6 +1722,7 @@ package "class Visitor(访问者模式)" #DDDDDD {
 ```markdown
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Mediator(中介者模式)" #DDDDDD {
     abstract class Colleague
@@ -1726,6 +1772,7 @@ package "class Mediator(中介者模式)" #DDDDDD {
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+skinparam defaultFontName "Source Han Sans SC Light"
 
 package "class Mediator(中介者模式)" #DDDDDD {
     abstract class Colleague

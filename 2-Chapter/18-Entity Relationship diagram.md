@@ -16,8 +16,8 @@ Otherwise, the syntax for drawing diagrams is the same as for class diagrams. Al
 | ------------ | ---------- |
 | Zero or One  | $$\color{fuchsia}{\verb+|o--+}$$     |
 | Exactly One  | $$\color{fuchsia}{\verb+||--+}$$     |
-| Zero or Many | $$\color{fuchsia}{\verb+}o--+}$$     |
-| One or Many  | $$\color{fuchsia}{\verb+}|--+}$$     |
+| Zero or Many | $$\color{fuchsia}{ \} \verb+o--+}$$ |
+| One or Many  | $$\color{fuchsia}{ \} \verb+|--+}$$ |
 
 Examples:
 

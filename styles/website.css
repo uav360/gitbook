@@ -1,0 +1,29 @@
+.markdown-section pre{
+  overflow:auto;
+  word-wrap:normal;
+  margin:0;
+  padding:.85em 1em;
+  margin-bottom:1.2em;
+  background:#eaeaea  /*pre标签包裹的代码的背景色*/
+}
+
+.markdown-section pre>code{
+  display:inline;
+  max-width:initial;
+  padding:0;
+  margin:0;
+  overflow:initial;
+  line-height:inherit;
+  font-size:.85em;
+  color: #000000;    /*代码区块字体颜色*/
+  white-space:pre;
+  background:0 0
+}
+
+.markdown-section code{
+  padding:.2em;
+  margin:0;
+  font-size:.85em;
+  color: #df408f;          /*行内代码字体颜色*/
+  background-color:#eaeaea /*代码框背景*/
+}

@@ -49,6 +49,8 @@ html{
 }
 
 body{
+  display:block;
+  margin-top:0;
   margin:0
 }
 
@@ -600,35 +602,35 @@ body{
 
 .section h2{
   font-size:1.75em;
-  color:#2674ba  /*修改标题颜色*/
+  color:#0099cc  /*修改标题颜色*/
 }
 
 .page 
 
 .section h3{
   font-size:1.5em;
-  color:#2674ba  /*修改标题颜色*/
+  color:#f77a0b  /*修改标题颜色*/
 }
 
 .page 
 
 .section h4{
   font-size:1.25em;
-  color:#2674ba  /*修改标题颜色*/
+  color:#662d91  /*修改标题颜色*/
 }
 
 .page 
 
 .section h5{
   font-size:1em;
-  color:#2674ba  /*修改标题颜色*/
+  color:#444444  /*修改标题颜色*/
 }
 
 .page 
 
 .section h6{
   font-size:1em;
-  color:#777
+  color:#777777
 }
 
 .page 

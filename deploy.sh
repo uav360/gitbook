@@ -20,7 +20,7 @@ git reset --hard master  # 将gh-pages分支重置为与master分支内容一致
 # 在gp-pages分支下，保留_book和node_modules目录和隐藏文件，其余内容全部删除
 for file in `ls $1`  #注意此处这是两个反引号，表示运行系统命令。
 do
-  if [ $file = "_book" ] || [ $file = "node_modules" ]
+  if [ $file = "_book" ] || [ $file = "node_modules" ] || [ $file = "book.pdf" ]
   then
     echo "保留: $file"
   else

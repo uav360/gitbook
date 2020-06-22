@@ -4,8 +4,3 @@
 * PlantUML语法指导手册
 * Mermaid 图表指导手册
 
-门、复等字是否正常
-
-commit 21测试
-
-commit 23测试

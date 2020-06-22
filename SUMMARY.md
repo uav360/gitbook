@@ -46,4 +46,7 @@
     * [第三章 第8节：Pie Chart](3-Chapter/8-Pie Chart.md)
     * [第三章 第9节：gitGraph](3-Chapter/9-gitGraph.md)
     * [第三章 第10节：安装 mermaid live editor](3-Chapter/10-安装 mermaid live editor.md)
+* 本书仓库链接
+  * [Gitee仓库](https://gitee.com/uav360/gitbook/)
+  * [Github仓库](https://github.com/uav360/gitbook/)
 

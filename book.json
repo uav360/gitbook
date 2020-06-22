@@ -16,7 +16,6 @@
     
     "links" : {
         "sidebar" : {
-        "GitHub仓库": "https://github.com/uav360/gitbook",
         "码云仓库": "https://gitee.com/uav360/gitbook"
         }
     },
@@ -61,8 +60,8 @@
  		"prism-themes@0.0.2",
                 "-prism-ext@3.1.3",
 		"advanced-emoji@0.2.2",
-		"github@2.0.0",
-		"github-buttons@3.0.0",
+		"-github@2.0.0",
+		"-github-buttons@3.0.0",
 		"-include-codeblock@3.2.2",
 		"ace@0.3.2",
 		"emphasize@1.1.0 ",		
@@ -92,7 +91,7 @@
 		"include-csv@0.3.0",
 		"-musicxml@1.0.2",
 		"-klipse@1.2.0",
-		"versions-select@0.1.1",
+		"-versions-select@0.1.1",
 		"-rss@3.0.2",
 		"theme-comscore@0.0.3",
 		"-summary@1.0.0",
@@ -104,9 +103,9 @@
 		"-back-to-top-button@0.1.4",
 		"-navigator@1.1.1",
 		"-chapter-fold@0.0.4",
-		"insert-logo@0.1.5",
+		"-insert-logo@0.1.5",
 		"popup@0.0.1",
-		"pageview-count@1.0.1",
+		"-pageview-count@1.0.1",
 		"-custom-favicon@0.0.4",
 
 		"-mygitalk@0.2.6",
@@ -202,11 +201,11 @@
        "sharing": {
             "douban": false,
             "facebook": false,
-            "google": true,
+            "google": false,
             "hatenaBookmark": false,
             "instapaper": false,
-            "line": true,
-            "linkedin": true,
+            "line": false,
+            "linkedin": false,
             "messenger": false,
             "pocket": false,
             "qq": false,
@@ -271,12 +270,12 @@
         },
 
         "edit-link": {
-            "base": "https://github.com/USER/REPO/edit/BRANCH",
-            "label": "Edit This Page"
+            "base": "https://gitee.com/uav360/gitbook/edit/master",
+            "label": "编辑本页源码"
         },
 
         "sitemap-general": {
-            "prefix": "http://gitbook.zhangjikai.com"
+            "prefix": "https://uav360.gitee.io/gitbook/"
         },
 
         "favicon": {

@@ -1,0 +1,1171 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第二章 第7节：对象图 · Gitbook Test</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="ZengMin">
+        <meta name="identifier" content="9787121155352" scheme="ISBN">
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-darcula.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-atoc/atoc.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mcqx/mcqx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-spoiler/spoiler.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="8-部署图.html" />
+    
+    
+    <link rel="prev" href="6-状态图.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../assets/images/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/apple-touch-icon-120x120.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon-180x180.png">
+        
+    
+
+    
+    <link rel="stylesheet" href="../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://gitee.com/uav360/gitbook" target="_blank" class="custom-link">码云仓库</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../1-Chapter/0-README.html">
+            
+                <a href="../1-Chapter/0-README.html">
+            
+                    
+                    第一章 Markdown公式指导手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1-Chapter/1-公式使用参考.html">
+            
+                <a href="../1-Chapter/1-公式使用参考.html">
+            
+                    
+                    第一章 第1节：公式使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1-Chapter/2-矩阵使用参考_矩阵方式.html">
+            
+                <a href="../1-Chapter/2-矩阵使用参考_矩阵方式.html">
+            
+                    
+                    第一章 第2节：矩阵使用参考_矩阵方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1-Chapter/2-矩阵使用参考_数组方式.html">
+            
+                <a href="../1-Chapter/2-矩阵使用参考_数组方式.html">
+            
+                    
+                    第一章 第2节：矩阵使用参考_数组方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1-Chapter/3-方程式序列使用参考.html">
+            
+                <a href="../1-Chapter/3-方程式序列使用参考.html">
+            
+                    
+                    第一章 第3节：方程式序列使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../1-Chapter/4-条件表达式使用参考.html">
+            
+                <a href="../1-Chapter/4-条件表达式使用参考.html">
+            
+                    
+                    第一章 第4节：条件表达式使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../1-Chapter/5-数组与表格使用参考.html">
+            
+                <a href="../1-Chapter/5-数组与表格使用参考.html">
+            
+                    
+                    第一章 第5节：数组与表格使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../1-Chapter/6-连分数使用参考.html">
+            
+                <a href="../1-Chapter/6-连分数使用参考.html">
+            
+                    
+                    第一章 第6节：连分数使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../1-Chapter/7-交换图表使用参考.html">
+            
+                <a href="../1-Chapter/7-交换图表使用参考.html">
+            
+                    
+                    第一章 第7节：交换图表使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../1-Chapter/8-特殊的注意事项.html">
+            
+                <a href="../1-Chapter/8-特殊的注意事项.html">
+            
+                    
+                    第一章 第8节：特殊的注意事项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../1-Chapter/9-Katex VS Mathjax.html">
+            
+                <a href="../1-Chapter/9-Katex VS Mathjax.html">
+            
+                    
+                    第一章 第9节：Katex VS Mathjax
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../1-Chapter/10-用html标签直接引入Katex公式.html">
+            
+                <a href="../1-Chapter/10-用html标签直接引入Katex公式.html">
+            
+                    
+                    第一章 第10节：用html标签直接引入Katex公式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../1-Chapter/11-用html标签直接引入Mathjax公式.html">
+            
+                <a href="../1-Chapter/11-用html标签直接引入Mathjax公式.html">
+            
+                    
+                    第一章 第11节：用html标签直接引入Mathjax公式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="0-README.html">
+            
+                <a href="0-README.html">
+            
+                    
+                    第二章 PlantUML 语法指导手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1-时序图.html">
+            
+                <a href="1-时序图.html">
+            
+                    
+                    第二章 第1节：时序图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="2-用例图.html">
+            
+                <a href="2-用例图.html">
+            
+                    
+                    第二章 第2节：用例图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="3-类图.html">
+            
+                <a href="3-类图.html">
+            
+                    
+                    第二章 第3节：类图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="4-活动图.html">
+            
+                <a href="4-活动图.html">
+            
+                    
+                    第二章 第4节：活动图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="5-组件图.html">
+            
+                <a href="5-组件图.html">
+            
+                    
+                    第二章 第5节：组件图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="6-状态图.html">
+            
+                <a href="6-状态图.html">
+            
+                    
+                    第二章 第6节：状态图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7" data-path="7-对象图.html">
+            
+                <a href="7-对象图.html">
+            
+                    
+                    第二章 第7节：对象图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="8-部署图.html">
+            
+                <a href="8-部署图.html">
+            
+                    
+                    第二章 第8节：部署图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="9-定时图.html">
+            
+                <a href="9-定时图.html">
+            
+                    
+                    第二章 第9节：定时图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="10-线框图形界面.html">
+            
+                <a href="10-线框图形界面.html">
+            
+                    
+                    第二章 第10节：线框图形界面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="11-架构图.html">
+            
+                <a href="11-架构图.html">
+            
+                    
+                    第二章 第11节：架构图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="12-规范和描述语言SDL.html">
+            
+                <a href="12-规范和描述语言SDL.html">
+            
+                    
+                    第二章 第12节：规范和描述语言SDL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="13-Ditaa diagram.html">
+            
+                <a href="13-Ditaa diagram.html">
+            
+                    
+                    第二章 第13节：Ditaa diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="14-甘特图 .html">
+            
+                <a href="14-甘特图 .html">
+            
+                    
+                    第二章 第14节：甘特图 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="15-思维导图.html">
+            
+                <a href="15-思维导图.html">
+            
+                    
+                    第二章 第15节：思维导图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="16-工作分解结构图.html">
+            
+                <a href="16-工作分解结构图.html">
+            
+                    
+                    第二章 第16节：工作分解结构图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="17-数学公式.html">
+            
+                <a href="17-数学公式.html">
+            
+                    
+                    第二章 第17节：数学公式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="18-Entity Relationship diagram.html">
+            
+                <a href="18-Entity Relationship diagram.html">
+            
+                    
+                    第二章 第18节：Entity Relationship diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="19-nwdiag.html">
+            
+                <a href="19-nwdiag.html">
+            
+                    
+                    第二章 第19节：nwdiag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="20-PlantUML绘制23种设计模式.html">
+            
+                <a href="20-PlantUML绘制23种设计模式.html">
+            
+                    
+                    第二章 第20节：PlantUML绘制23种设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../3-Chapter/0-README.html">
+            
+                <a href="../3-Chapter/0-README.html">
+            
+                    
+                    第三章 Mermaid 图表指导手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../3-Chapter/1-Flowchart.html">
+            
+                <a href="../3-Chapter/1-Flowchart.html">
+            
+                    
+                    第三章 第1节：Flowchart
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../3-Chapter/2-Sequence diagram.html">
+            
+                <a href="../3-Chapter/2-Sequence diagram.html">
+            
+                    
+                    第三章 第2节：Sequence diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../3-Chapter/3-Class Diagram.html">
+            
+                <a href="../3-Chapter/3-Class Diagram.html">
+            
+                    
+                    第三章 第3节：Class Diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../3-Chapter/4-State Diagram.html">
+            
+                <a href="../3-Chapter/4-State Diagram.html">
+            
+                    
+                    第三章 第4节：State Diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../3-Chapter/5-Entity Relationship Diagram.html">
+            
+                <a href="../3-Chapter/5-Entity Relationship Diagram.html">
+            
+                    
+                    第三章 第5节：Entity Relationship Diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../3-Chapter/6-User Journey.html">
+            
+                <a href="../3-Chapter/6-User Journey.html">
+            
+                    
+                    第三章 第6节：User Journey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../3-Chapter/7-Gantt.html">
+            
+                <a href="../3-Chapter/7-Gantt.html">
+            
+                    
+                    第三章 第7节：Gantt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../3-Chapter/8-Pie Chart.html">
+            
+                <a href="../3-Chapter/8-Pie Chart.html">
+            
+                    
+                    第三章 第8节：Pie Chart
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../3-Chapter/9-gitGraph.html">
+            
+                <a href="../3-Chapter/9-gitGraph.html">
+            
+                    
+                    第三章 第9节：gitGraph
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../3-Chapter/10-安装 mermaid live editor.html">
+            
+                <a href="../3-Chapter/10-安装 mermaid live editor.html">
+            
+                    
+                    第三章 第10节：安装 mermaid live editor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    本书仓库链接
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" >
+            
+                <a target="_blank" href="https://gitee.com/uav360/gitbook/">
+            
+                    
+                    Gitee仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" >
+            
+                <a target="_blank" href="https://github.com/uav360/gitbook/">
+            
+                    
+                    Github仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第二章 第7节：对象图</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#&#x7B2C;&#x4E8C;&#x7AE0;-&#x7B2C;7&#x8282;&#xFF1A;&#x5BF9;&#x8C61;&#x56FE;"><b>1. </b>&#x7B2C;&#x4E8C;&#x7AE0; &#x7B2C;7&#x8282;&#xFF1A;&#x5BF9;&#x8C61;&#x56FE;</a></li><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#&#x5BF9;&#x8C61;&#x7684;&#x5B9A;&#x4E49;"><b>1.1. </b>&#x5BF9;&#x8C61;&#x7684;&#x5B9A;&#x4E49;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;"><b>1.2. </b>&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#&#x6DFB;&#x52A0;&#x5C5E;&#x6027;"><b>1.3. </b>&#x6DFB;&#x52A0;&#x5C5E;&#x6027;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#&#x7C7B;&#x56FE;&#x4E2D;&#x7684;&#x901A;&#x7528;&#x7279;&#x6027;"><b>1.4. </b>&#x7C7B;&#x56FE;&#x4E2D;&#x7684;&#x901A;&#x7528;&#x7279;&#x6027;</a></li></ul></ul></div><a href="#&#x7B2C;&#x4E8C;&#x7AE0;-&#x7B2C;7&#x8282;&#xFF1A;&#x5BF9;&#x8C61;&#x56FE;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x7B2C;&#x4E8C;&#x7AE0;-&#x7B2C;7&#x8282;&#xFF1A;&#x5BF9;&#x8C61;&#x56FE;"><a name="&#x7B2C;&#x4E8C;&#x7AE0;-&#x7B2C;7&#x8282;&#xFF1A;&#x5BF9;&#x8C61;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x7B2C;&#x4E8C;&#x7AE0;-&#x7B2C;7&#x8282;&#xFF1A;&#x5BF9;&#x8C61;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x7B2C;&#x4E8C;&#x7AE0; &#x7B2C;7&#x8282;&#xFF1A;&#x5BF9;&#x8C61;&#x56FE;</h1>
+<h2 id="&#x5BF9;&#x8C61;&#x7684;&#x5B9A;&#x4E49;"><a name="&#x5BF9;&#x8C61;&#x7684;&#x5B9A;&#x4E49;" class="anchor-navigation-ex-anchor" href="#&#x5BF9;&#x8C61;&#x7684;&#x5B9A;&#x4E49;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x5BF9;&#x8C61;&#x7684;&#x5B9A;&#x4E49;</h2>
+<p>&#x4F7F;&#x7528;&#x5173;&#x952E;&#x5B57;<code>object</code>&#x5B9A;&#x4E49;&#x5B9E;&#x4F8B;&#x3002;</p>
+<pre class="language-"><code class="lang-markdown">@startuml
+object firstObject
+object &quot;My Second Object&quot; as o2
+@enduml
+</code></pre>
+<p><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjb250ZW50U2NyaXB0VHlwZT0iYXBwbGljYXRpb24vZWNtYXNjcmlwdCIgY29udGVudFN0eWxlVHlwZT0idGV4dC9jc3MiIGhlaWdodD0iNTJweCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgc3R5bGU9IndpZHRoOjI1NXB4O2hlaWdodDo1MnB4OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjU1IDUyIiB3aWR0aD0iMjU1cHgiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxkZWZzPjxmaWx0ZXIgaGVpZ2h0PSIzMDAlIiBpZD0iZjExaHBsdG5kZzJoY2QiIHdpZHRoPSIzMDAlIiB4PSItMSIgeT0iLTEiPjxmZUdhdXNzaWFuQmx1ciByZXN1bHQ9ImJsdXJPdXQiIHN0ZERldmlhdGlvbj0iMi4wIi8+PGZlQ29sb3JNYXRyaXggaW49ImJsdXJPdXQiIHJlc3VsdD0iYmx1ck91dDIiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAuNCAwIi8+PGZlT2Zmc2V0IGR4PSI0LjAiIGR5PSI0LjAiIGluPSJibHVyT3V0MiIgcmVzdWx0PSJibHVyT3V0MyIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImJsdXJPdXQzIiBtb2RlPSJub3JtYWwiLz48L2ZpbHRlcj48L2RlZnM+PGc+PHJlY3QgZmlsbD0iI0ZFRkVDRSIgZmlsdGVyPSJ1cmwoI2YxMWhwbHRuZGcyaGNkKSIgaGVpZ2h0PSIzMy45Njg4IiBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHdpZHRoPSI3OCIgeD0iNiIgeT0iOCIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9IjY0IiB4PSIxMyIgeT0iMjEuMTM4NyI+Zmlyc3RPYmplY3Q8L3RleHQ+PGxpbmUgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjU7IiB4MT0iNyIgeDI9IjgzIiB5MT0iMjUuOTY4OCIgeTI9IjI1Ljk2ODgiLz48cmVjdCBmaWxsPSIjRkVGRUNFIiBmaWx0ZXI9InVybCgjZjExaHBsdG5kZzJoY2QpIiBoZWlnaHQ9IjMzLjk2ODgiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgd2lkdGg9IjEyNSIgeD0iMTE5LjUiIHk9IjgiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nQW5kR2x5cGhzIiB0ZXh0TGVuZ3RoPSIxMTEiIHg9IjEyNi41IiB5PSIyMS4xMzg3Ij5NeSBTZWNvbmQgT2JqZWN0PC90ZXh0PjxsaW5lIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgeDE9IjEyMC41IiB4Mj0iMjQzLjUiIHkxPSIyNS45Njg4IiB5Mj0iMjUuOTY4OCIvPjwhLS1NRDU9W2ZkMjcyYjYwMWZmYmNkYTJhMTk4YzNlOTU5OGFiZmZlXQpAc3RhcnR1bWwNCm9iamVjdCBmaXJzdE9iamVjdA0Kb2JqZWN0ICJNeSBTZWNvbmQgT2JqZWN0IiBhcyBvMg0KQGVuZHVtbA0KClBsYW50VU1MIHZlcnNpb24gMS4yMDIwLjA5KFN1biBNYXkgMTAgMTg6NTE6MDYgQ1NUIDIwMjApCihHUEwgc291cmNlIGRpc3RyaWJ1dGlvbikKSmF2YSBSdW50aW1lOiBPcGVuSkRLIFJ1bnRpbWUgRW52aXJvbm1lbnQKSlZNOiBPcGVuSkRLIDY0LUJpdCBTZXJ2ZXIgVk0KSmF2YSBWZXJzaW9uOiAxLjguMF8yNTItOHUyNTItYjA5LTF+MTYuMDQtYjA5Ck9wZXJhdGluZyBTeXN0ZW06IExpbnV4CkRlZmF1bHQgRW5jb2Rpbmc6IFVURi04Ckxhbmd1YWdlOiBlbgpDb3VudHJ5OiBVUwotLT48L2c+PC9zdmc+"></p>
+<h2 id="&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;"><a name="&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;" class="anchor-navigation-ex-anchor" href="#&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;</h2>
+<p>&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x901A;&#x8FC7;&#x4E0B;&#x9762;&#x7684;&#x7B26;&#x53F7;&#x5B9A;&#x4E49; :</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Symbol</th>
+<th>Drawing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Extension&#xFF08;&#x6269;&#x5C55;&#xFF09;</td>
+<td><script type="math/tex; ">\color{fuchsia}{\verb+<|--+}</script></td>
+<td><img src="assets/images/7-&#x5BF9;&#x8C61;&#x56FE;/extends01-1592042435784.png" alt="img"></td>
+</tr>
+<tr>
+<td>Composition&#xFF08;&#x7EC4;&#x5408;&#xFF09;</td>
+<td><script type="math/tex; ">\color{fuchsia}{\verb+*--+}</script></td>
+<td><img src="assets/images/7-&#x5BF9;&#x8C61;&#x56FE;/sym03-1592042435786.png" alt="img"></td>
+</tr>
+<tr>
+<td>Aggregation&#xFF08;&#x805A;&#x5408;&#xFF09;</td>
+<td><script type="math/tex; ">\color{fuchsia}{\verb+o--+}</script></td>
+<td><img src="assets/images/7-&#x5BF9;&#x8C61;&#x56FE;/sym01-1592042435787.png" alt="img"></td>
+</tr>
+</tbody>
+</table>
+<p>&#x4F7F;&#x7528;<code>..</code> &#x6765;&#x4EE3;&#x66FF; <code>--</code> &#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x70B9; &#x7EBF;. </p>
+<p>&#x77E5;&#x9053;&#x4E86;&#x8FD9;&#x4E9B;&#x89C4;&#x5219;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x753B;&#x4E0B;&#x9762;&#x7684;&#x56FE;&#xFF1A;  </p>
+<p>&#x53EF;&#x4EE5;&#x7528;&#x5192;&#x53F7;&#x7ED9;&#x5173;&#x7CFB;&#x6DFB;&#x52A0;&#x6807;&#x7B7E;&#xFF0C;&#x6807;&#x7B7E;&#x5185;&#x5BB9;&#x7D27;&#x8DDF;&#x5728;&#x5192;&#x53F7;&#x4E4B;&#x540E;&#x3002;  </p>
+<p>&#x7528;&#x53CC;&#x5F15;&#x53F7;&#x5728;&#x5173;&#x7CFB;&#x7684;&#x4E24;&#x8FB9;&#x6DFB;&#x52A0;&#x57FA;&#x6570;&#x3002;  </p>
+<pre class="language-"><code class="lang-markdown">@startuml
+object Object01
+object Object02
+object Object03
+object Object04
+object Object05
+object Object06
+object Object07
+object Object08
+
+Object01 &lt;|-- Object02
+Object03 *-- Object04
+Object05 o-- &quot;4&quot; Object06
+Object07 .. Object08 : some labels
+@enduml
+</code></pre>
+<p><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjb250ZW50U2NyaXB0VHlwZT0iYXBwbGljYXRpb24vZWNtYXNjcmlwdCIgY29udGVudFN0eWxlVHlwZT0idGV4dC9jc3MiIGhlaWdodD0iMTYzcHgiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHN0eWxlPSJ3aWR0aDo0NDZweDtoZWlnaHQ6MTYzcHg7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA0NDYgMTYzIiB3aWR0aD0iNDQ2cHgiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxkZWZzPjxmaWx0ZXIgaGVpZ2h0PSIzMDAlIiBpZD0iZjFjNTRzdWpkd3Y0ajciIHdpZHRoPSIzMDAlIiB4PSItMSIgeT0iLTEiPjxmZUdhdXNzaWFuQmx1ciByZXN1bHQ9ImJsdXJPdXQiIHN0ZERldmlhdGlvbj0iMi4wIi8+PGZlQ29sb3JNYXRyaXggaW49ImJsdXJPdXQiIHJlc3VsdD0iYmx1ck91dDIiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAuNCAwIi8+PGZlT2Zmc2V0IGR4PSI0LjAiIGR5PSI0LjAiIGluPSJibHVyT3V0MiIgcmVzdWx0PSJibHVyT3V0MyIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImJsdXJPdXQzIiBtb2RlPSJub3JtYWwiLz48L2ZpbHRlcj48L2RlZnM+PGc+PHJlY3QgZmlsbD0iI0ZFRkVDRSIgZmlsdGVyPSJ1cmwoI2YxYzU0c3VqZHd2NGo3KSIgaGVpZ2h0PSIzMy45Njg4IiBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHdpZHRoPSI3MCIgeD0iNiIgeT0iOCIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9IjU2IiB4PSIxMyIgeT0iMjEuMTM4NyI+T2JqZWN0MDE8L3RleHQ+PGxpbmUgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjU7IiB4MT0iNyIgeDI9Ijc1IiB5MT0iMjUuOTY4OCIgeTI9IjI1Ljk2ODgiLz48cmVjdCBmaWxsPSIjRkVGRUNFIiBmaWx0ZXI9InVybCgjZjFjNTRzdWpkd3Y0ajcpIiBoZWlnaHQ9IjMzLjk2ODgiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgd2lkdGg9IjcwIiB4PSI2IiB5PSIxMTkiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nQW5kR2x5cGhzIiB0ZXh0TGVuZ3RoPSI1NiIgeD0iMTMiIHk9IjEzMi4xMzg3Ij5PYmplY3QwMjwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHgxPSI3IiB4Mj0iNzUiIHkxPSIxMzYuOTY4OCIgeTI9IjEzNi45Njg4Ii8+PHJlY3QgZmlsbD0iI0ZFRkVDRSIgZmlsdGVyPSJ1cmwoI2YxYzU0c3VqZHd2NGo3KSIgaGVpZ2h0PSIzMy45Njg4IiBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHdpZHRoPSI3MCIgeD0iMTExIiB5PSI4Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZ0FuZEdseXBocyIgdGV4dExlbmd0aD0iNTYiIHg9IjExOCIgeT0iMjEuMTM4NyI+T2JqZWN0MDM8L3RleHQ+PGxpbmUgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjU7IiB4MT0iMTEyIiB4Mj0iMTgwIiB5MT0iMjUuOTY4OCIgeTI9IjI1Ljk2ODgiLz48cmVjdCBmaWxsPSIjRkVGRUNFIiBmaWx0ZXI9InVybCgjZjFjNTRzdWpkd3Y0ajcpIiBoZWlnaHQ9IjMzLjk2ODgiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgd2lkdGg9IjcwIiB4PSIxMTEiIHk9IjExOSIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9IjU2IiB4PSIxMTgiIHk9IjEzMi4xMzg3Ij5PYmplY3QwNDwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHgxPSIxMTIiIHgyPSIxODAiIHkxPSIxMzYuOTY4OCIgeTI9IjEzNi45Njg4Ii8+PHJlY3QgZmlsbD0iI0ZFRkVDRSIgZmlsdGVyPSJ1cmwoI2YxYzU0c3VqZHd2NGo3KSIgaGVpZ2h0PSIzMy45Njg4IiBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHdpZHRoPSI3MCIgeD0iMjE2IiB5PSI4Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZ0FuZEdseXBocyIgdGV4dExlbmd0aD0iNTYiIHg9IjIyMyIgeT0iMjEuMTM4NyI+T2JqZWN0MDU8L3RleHQ+PGxpbmUgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjU7IiB4MT0iMjE3IiB4Mj0iMjg1IiB5MT0iMjUuOTY4OCIgeTI9IjI1Ljk2ODgiLz48cmVjdCBmaWxsPSIjRkVGRUNFIiBmaWx0ZXI9InVybCgjZjFjNTRzdWpkd3Y0ajcpIiBoZWlnaHQ9IjMzLjk2ODgiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgd2lkdGg9IjcwIiB4PSIyMTYiIHk9IjExOSIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9IjU2IiB4PSIyMjMiIHk9IjEzMi4xMzg3Ij5PYmplY3QwNjwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHgxPSIyMTciIHgyPSIyODUiIHkxPSIxMzYuOTY4OCIgeTI9IjEzNi45Njg4Ii8+PHJlY3QgZmlsbD0iI0ZFRkVDRSIgZmlsdGVyPSJ1cmwoI2YxYzU0c3VqZHd2NGo3KSIgaGVpZ2h0PSIzMy45Njg4IiBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHdpZHRoPSI3MCIgeD0iMzIxIiB5PSI4Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZ0FuZEdseXBocyIgdGV4dExlbmd0aD0iNTYiIHg9IjMyOCIgeT0iMjEuMTM4NyI+T2JqZWN0MDc8L3RleHQ+PGxpbmUgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjU7IiB4MT0iMzIyIiB4Mj0iMzkwIiB5MT0iMjUuOTY4OCIgeTI9IjI1Ljk2ODgiLz48cmVjdCBmaWxsPSIjRkVGRUNFIiBmaWx0ZXI9InVybCgjZjFjNTRzdWpkd3Y0ajcpIiBoZWlnaHQ9IjMzLjk2ODgiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgd2lkdGg9IjcwIiB4PSIzMjEiIHk9IjExOSIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9IjU2IiB4PSIzMjgiIHk9IjEzMi4xMzg3Ij5PYmplY3QwODwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuNTsiIHgxPSIzMjIiIHgyPSIzOTAiIHkxPSIxMzYuOTY4OCIgeTI9IjEzNi45Njg4Ii8+PCEtLU1ENT1bNTA3MzgxYjMyZTBhNDllN2FiYzcyMTAyMjlhOGVlNjBdCnJldmVyc2UgbGluayBPYmplY3QwMSB0byBPYmplY3QwMi0tPjxwYXRoIGQ9Ik00MSw2Mi4zNDcyIEM0MSw4MS40OTQxIDQxLDEwNC4wMTU3IDQxLDExOC44NTA3ICIgZmlsbD0ibm9uZSIgaWQ9Ik9iamVjdDAxJmx0Oy1PYmplY3QwMiIgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjA7Ii8+PHBvbHlnb24gZmlsbD0ibm9uZSIgcG9pbnRzPSIzNC4wMDAxLDYyLjA4MzQsNDEsNDIuMDgzLDQ4LjAwMDEsNjIuMDgzMywzNC4wMDAxLDYyLjA4MzQiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS4wOyIvPjwhLS1NRDU9W2QyMWMyMGIxNmIzZmYyMmFiYmMyYzhhZjg0OTMxYjYwXQpyZXZlcnNlIGxpbmsgT2JqZWN0MDMgdG8gT2JqZWN0MDQtLT48cGF0aCBkPSJNMTQ2LDU1LjM0NjkgQzE0Niw3NS43NDM2IDE0NiwxMDIuMTYxMyAxNDYsMTE4Ljg1MDcgIiBmaWxsPSJub25lIiBpZD0iT2JqZWN0MDMmbHQ7LU9iamVjdDA0IiBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuMDsiLz48cG9seWdvbiBmaWxsPSIjQTgwMDM2IiBwb2ludHM9IjE0Niw0Mi4wODMsMTQyLDQ4LjA4MywxNDYsNTQuMDgzLDE1MCw0OC4wODMsMTQ2LDQyLjA4MyIgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjA7Ii8+PCEtLU1ENT1bYWRlOTA3MDk2NjAyZWY4ZDdmZTE5MzM5YjQ2YmZmMGVdCnJldmVyc2UgbGluayBPYmplY3QwNSB0byBPYmplY3QwNi0tPjxwYXRoIGQ9Ik0yNTEsNTUuMzQ2OSBDMjUxLDc1Ljc0MzYgMjUxLDEwMi4xNjEzIDI1MSwxMTguODUwNyAiIGZpbGw9Im5vbmUiIGlkPSJPYmplY3QwNSZsdDstT2JqZWN0MDYiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS4wOyIvPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMjUxLDQyLjA4MywyNDcsNDguMDgzLDI1MSw1NC4wODMsMjU1LDQ4LjA4MywyNTEsNDIuMDgzIiBzdHlsZT0ic3Ryb2tlOiAjQTgwMDM2OyBzdHJva2Utd2lkdGg6IDEuMDsiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nQW5kR2x5cGhzIiB0ZXh0TGVuZ3RoPSI4IiB4PSIyNDEuNzI1IiB5PSIxMDguMDg2OCI+NDwvdGV4dD48IS0tTUQ1PVsxNzQ4ODUwMWE3YmVkMTgxYzg1MWNhMGM2MTVmYjRmMl0KbGluayBPYmplY3QwNyB0byBPYmplY3QwOC0tPjxwYXRoIGQ9Ik0zNTYsNDIuMDgzIEMzNTYsNjIuNjkxNiAzNTYsOTguMjEwNyAzNTYsMTE4Ljg1MDcgIiBmaWxsPSJub25lIiBpZD0iT2JqZWN0MDctT2JqZWN0MDgiIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS4wOyBzdHJva2UtZGFzaGFycmF5OiA3LjAsNy4wOyIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9Ijc3IiB4PSIzNTciIHk9Ijg1LjA2NjkiPnNvbWUgbGFiZWxzPC90ZXh0PjwhLS1NRDU9W2E4ZjNhOTc3MmNmZTc4NTJkYWRiYjk4NTAxN2Q5YTRlXQpAc3RhcnR1bWwNCm9iamVjdCBPYmplY3QwMQ0Kb2JqZWN0IE9iamVjdDAyDQpvYmplY3QgT2JqZWN0MDMNCm9iamVjdCBPYmplY3QwNA0Kb2JqZWN0IE9iamVjdDA1DQpvYmplY3QgT2JqZWN0MDYNCm9iamVjdCBPYmplY3QwNw0Kb2JqZWN0IE9iamVjdDA4DQoNCk9iamVjdDAxIDx8LSAtIE9iamVjdDAyDQpPYmplY3QwMyAqLSAtIE9iamVjdDA0DQpPYmplY3QwNSBvLSAtICI0IiBPYmplY3QwNg0KT2JqZWN0MDcgLi4gT2JqZWN0MDggOiBzb21lIGxhYmVscw0KQGVuZHVtbA0KClBsYW50VU1MIHZlcnNpb24gMS4yMDIwLjA5KFN1biBNYXkgMTAgMTg6NTE6MDYgQ1NUIDIwMjApCihHUEwgc291cmNlIGRpc3RyaWJ1dGlvbikKSmF2YSBSdW50aW1lOiBPcGVuSkRLIFJ1bnRpbWUgRW52aXJvbm1lbnQKSlZNOiBPcGVuSkRLIDY0LUJpdCBTZXJ2ZXIgVk0KSmF2YSBWZXJzaW9uOiAxLjguMF8yNTItOHUyNTItYjA5LTF+MTYuMDQtYjA5Ck9wZXJhdGluZyBTeXN0ZW06IExpbnV4CkRlZmF1bHQgRW5jb2Rpbmc6IFVURi04Ckxhbmd1YWdlOiBlbgpDb3VudHJ5OiBVUwotLT48L2c+PC9zdmc+"></p>
+<h2 id="&#x6DFB;&#x52A0;&#x5C5E;&#x6027;"><a name="&#x6DFB;&#x52A0;&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x6DFB;&#x52A0;&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x6DFB;&#x52A0;&#x5C5E;&#x6027;</h2>
+<p>&#x7528;&#x5192;&#x53F7;&#x52A0;&#x5C5E;&#x6027;&#x540D;&#x7684;&#x5F62;&#x5F0F;&#x58F0;&#x660E;&#x5C5E;&#x6027;&#x3002;</p>
+<pre class="language-"><code class="lang-markdown">@startuml
+
+object user
+
+user : name = &quot;Dummy&quot;
+user : id = 123
+
+@enduml
+</code></pre>
+<p><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjb250ZW50U2NyaXB0VHlwZT0iYXBwbGljYXRpb24vZWNtYXNjcmlwdCIgY29udGVudFN0eWxlVHlwZT0idGV4dC9jc3MiIGhlaWdodD0iNjdweCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgc3R5bGU9IndpZHRoOjEyMnB4O2hlaWdodDo2N3B4OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTIyIDY3IiB3aWR0aD0iMTIycHgiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxkZWZzPjxmaWx0ZXIgaGVpZ2h0PSIzMDAlIiBpZD0iZjE4N2lxaG1oNjU3dWMiIHdpZHRoPSIzMDAlIiB4PSItMSIgeT0iLTEiPjxmZUdhdXNzaWFuQmx1ciByZXN1bHQ9ImJsdXJPdXQiIHN0ZERldmlhdGlvbj0iMi4wIi8+PGZlQ29sb3JNYXRyaXggaW49ImJsdXJPdXQiIHJlc3VsdD0iYmx1ck91dDIiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAuNCAwIi8+PGZlT2Zmc2V0IGR4PSI0LjAiIGR5PSI0LjAiIGluPSJibHVyT3V0MiIgcmVzdWx0PSJibHVyT3V0MyIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImJsdXJPdXQzIiBtb2RlPSJub3JtYWwiLz48L2ZpbHRlcj48L2RlZnM+PGc+PHJlY3QgZmlsbD0iI0ZFRkVDRSIgZmlsdGVyPSJ1cmwoI2YxODdpcWhtaDY1N3VjKSIgaGVpZ2h0PSI0OS4yNSIgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjU7IiB3aWR0aD0iMTA0IiB4PSI3IiB5PSI3Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZ0FuZEdseXBocyIgdGV4dExlbmd0aD0iMjgiIHg9IjQ1IiB5PSIyMC4xMzg3Ij51c2VyPC90ZXh0PjxsaW5lIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgeDE9IjgiIHgyPSIxMTAiIHkxPSIyNC45Njg4IiB5Mj0iMjQuOTY4OCIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9IjkyIiB4PSIxMyIgeT0iMzguMjUxIj5uYW1lID0gIkR1bW15IjwvdGV4dD48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nQW5kR2x5cGhzIiB0ZXh0TGVuZ3RoPSI0MCIgeD0iMTMiIHk9IjQ5Ljg5MTYiPmlkID0gMTIzPC90ZXh0PjwhLS1NRDU9W2EyN2M4YTczOGRjNzY5OGNlNDE3OGRhZTBhNWY4ZmQ2XQpAc3RhcnR1bWwNCm9iamVjdCB1c2VyDQoNCnVzZXIgOiBuYW1lID0gIkR1bW15Ig0KdXNlciA6IGlkID0gMTIzDQpAZW5kdW1sDQoKUGxhbnRVTUwgdmVyc2lvbiAxLjIwMjAuMDkoU3VuIE1heSAxMCAxODo1MTowNiBDU1QgMjAyMCkKKEdQTCBzb3VyY2UgZGlzdHJpYnV0aW9uKQpKYXZhIFJ1bnRpbWU6IE9wZW5KREsgUnVudGltZSBFbnZpcm9ubWVudApKVk06IE9wZW5KREsgNjQtQml0IFNlcnZlciBWTQpKYXZhIFZlcnNpb246IDEuOC4wXzI1Mi04dTI1Mi1iMDktMX4xNi4wNC1iMDkKT3BlcmF0aW5nIFN5c3RlbTogTGludXgKRGVmYXVsdCBFbmNvZGluZzogVVRGLTgKTGFuZ3VhZ2U6IGVuCkNvdW50cnk6IFVTCi0tPjwvZz48L3N2Zz4="></p>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x5927;&#x62EC;&#x53F7;&#x6279;&#x91CF;&#x58F0;&#x660E;&#x5C5E;&#x6027;&#x3002;</p>
+<pre class="language-"><code class="lang-markdown">@startuml
+
+object user {
+  name = &quot;Dummy&quot;
+  id = 123
+}
+
+@enduml
+</code></pre>
+<p><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjb250ZW50U2NyaXB0VHlwZT0iYXBwbGljYXRpb24vZWNtYXNjcmlwdCIgY29udGVudFN0eWxlVHlwZT0idGV4dC9jc3MiIGhlaWdodD0iNjdweCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgc3R5bGU9IndpZHRoOjEyMnB4O2hlaWdodDo2N3B4OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTIyIDY3IiB3aWR0aD0iMTIycHgiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxkZWZzPjxmaWx0ZXIgaGVpZ2h0PSIzMDAlIiBpZD0iZjF3MHczaWV2ZWdscjYiIHdpZHRoPSIzMDAlIiB4PSItMSIgeT0iLTEiPjxmZUdhdXNzaWFuQmx1ciByZXN1bHQ9ImJsdXJPdXQiIHN0ZERldmlhdGlvbj0iMi4wIi8+PGZlQ29sb3JNYXRyaXggaW49ImJsdXJPdXQiIHJlc3VsdD0iYmx1ck91dDIiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAuNCAwIi8+PGZlT2Zmc2V0IGR4PSI0LjAiIGR5PSI0LjAiIGluPSJibHVyT3V0MiIgcmVzdWx0PSJibHVyT3V0MyIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImJsdXJPdXQzIiBtb2RlPSJub3JtYWwiLz48L2ZpbHRlcj48L2RlZnM+PGc+PHJlY3QgZmlsbD0iI0ZFRkVDRSIgZmlsdGVyPSJ1cmwoI2YxdzB3M2lldmVnbHI2KSIgaGVpZ2h0PSI0OS4yNSIgc3R5bGU9InN0cm9rZTogI0E4MDAzNjsgc3Ryb2tlLXdpZHRoOiAxLjU7IiB3aWR0aD0iMTA0IiB4PSI3IiB5PSI3Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZ0FuZEdseXBocyIgdGV4dExlbmd0aD0iMjgiIHg9IjQ1IiB5PSIyMC4xMzg3Ij51c2VyPC90ZXh0PjxsaW5lIHN0eWxlPSJzdHJva2U6ICNBODAwMzY7IHN0cm9rZS13aWR0aDogMS41OyIgeDE9IjgiIHgyPSIxMTAiIHkxPSIyNC45Njg4IiB5Mj0iMjQuOTY4OCIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmdBbmRHbHlwaHMiIHRleHRMZW5ndGg9IjkyIiB4PSIxMyIgeT0iMzguMjUxIj5uYW1lID0gIkR1bW15IjwvdGV4dD48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nQW5kR2x5cGhzIiB0ZXh0TGVuZ3RoPSI0MCIgeD0iMTMiIHk9IjQ5Ljg5MTYiPmlkID0gMTIzPC90ZXh0PjwhLS1NRDU9WzJmYWMwZjlkMWEzNzYzNmE2YTMwODYxMDM0ZDg3NjUxXQpAc3RhcnR1bWwNCm9iamVjdCB1c2VyIHsNCiAgbmFtZSA9ICJEdW1teSINCiAgaWQgPSAxMjMNCn0NCkBlbmR1bWwNCgpQbGFudFVNTCB2ZXJzaW9uIDEuMjAyMC4wOShTdW4gTWF5IDEwIDE4OjUxOjA2IENTVCAyMDIwKQooR1BMIHNvdXJjZSBkaXN0cmlidXRpb24pCkphdmEgUnVudGltZTogT3BlbkpESyBSdW50aW1lIEVudmlyb25tZW50CkpWTTogT3BlbkpESyA2NC1CaXQgU2VydmVyIFZNCkphdmEgVmVyc2lvbjogMS44LjBfMjUyLTh1MjUyLWIwOS0xfjE2LjA0LWIwOQpPcGVyYXRpbmcgU3lzdGVtOiBMaW51eApEZWZhdWx0IEVuY29kaW5nOiBVVEYtOApMYW5ndWFnZTogZW4KQ291bnRyeTogVVMKLS0+PC9nPjwvc3ZnPg=="></p>
+<h2 id="&#x7C7B;&#x56FE;&#x4E2D;&#x7684;&#x901A;&#x7528;&#x7279;&#x6027;"><a name="&#x7C7B;&#x56FE;&#x4E2D;&#x7684;&#x901A;&#x7528;&#x7279;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x7C7B;&#x56FE;&#x4E2D;&#x7684;&#x901A;&#x7528;&#x7279;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x7C7B;&#x56FE;&#x4E2D;&#x7684;&#x901A;&#x7528;&#x7279;&#x6027;</h2>
+<ul>
+<li><a href="https://plantuml.com/zh/class-diagram#Visibility" target="_blank">&#x53EF;&#x89C1;&#x6027;</a></li>
+<li><a href="https://plantuml.com/zh/class-diagram#Notes" target="_blank">&#x5B9A;&#x4E49;&#x6CE8;&#x91CA;</a></li>
+<li><a href="https://plantuml.com/zh/class-diagram#Using" target="_blank">&#x4F7F;&#x7528;&#x5305;</a></li>
+<li><a href="https://plantuml.com/zh/class-diagram#Skinparam" target="_blank">&#x7F8E;&#x5316;&#x8F93;&#x51FA;&#x5185;&#x5BB9;</a></li>
+</ul>
+<script type="text/javascript">var className='atoc';</script>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="6-状态图.html" class="navigation navigation-prev " aria-label="Previous page: 第二章 第6节：状态图">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="8-部署图.html" class="navigation navigation-next " aria-label="Next page: 第二章 第8节：部署图">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第二章 第7节：对象图","level":"1.3.7","depth":2,"next":{"title":"第二章 第8节：部署图","level":"1.3.8","depth":2,"path":"2-Chapter/8-部署图.md","ref":"2-Chapter/8-部署图.md","articles":[]},"previous":{"title":"第二章 第6节：状态图","level":"1.3.6","depth":2,"path":"2-Chapter/6-状态图.md","ref":"2-Chapter/6-状态图.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default@1.0.7","fontsettings@2.0.0","-sharing@1.0.2","-lunr@1.2.0","-search@2.2.1 ","-highlight@2.0.3","-katex@1.1.4","-katex-pp@1.0.2","-mathjax@1.1.2","mathjax-pro@0.0.6","-mermaid@0.0.9","-mermaid-gb3@2.1.0","todo@0.1.3 ","-disqus@0.1.0","search-plus@1.0.3","prism@2.4.0","prism-themes@0.0.2","-prism-ext@3.1.3","advanced-emoji@0.2.2","-github@2.0.0","-github-buttons@3.0.0","-include-codeblock@3.2.2","ace@0.3.2","emphasize@1.1.0 ","splitter@0.0.8","-plantuml@0.0.15","graph@0.1.0","chart@0.2.2","sharing-plus@0.0.2","-tbfed-pagefooter@0.0.1","expandable-chapters@0.2.0 ","-expandable-chapters-small@0.1.7","-toggle-chapters@0.0.3","sectionx@3.1.0","-ga@1.0.1","3-ba@0.9.0","-donate@1.0.2 ","local-video@1.0.1","-simple-page-toc@0.1.2 ","anchors@0.7.1","anchor-navigation-ex@1.0.14","edit-link@2.0.2","sitemap-general@0.1.1","favicon@0.0.2","terminal@0.3.2","copy-code-button@0.0.2 ","alerts@0.2.0","include-csv@0.3.0","-musicxml@1.0.2","-klipse@1.2.0","-versions-select@0.1.1","-rss@3.0.2","theme-comscore@0.0.3","-summary@1.0.0","-code@0.1.0","-simple-mind-map@0.2.4","-accordion@1.1.3","hide-element@0.0.4","-back-to-top-button@0.1.4","-navigator@1.1.1","-chapter-fold@0.0.4","-insert-logo@0.1.5","popup@0.0.1","-pageview-count@1.0.1","-custom-favicon@0.0.4","-mygitalk@0.2.6","-page-copyright@1.0.8","-latex-codecogs@1.0.1","-autocover@2.0.1","-mermaid-full@0.5.1","mermaid-newface@3.0.4","-mermaid-c84@2.1.6","-mermaid-cli@1.0.14","-mermaid-v8@0.3.0","-mermaid-flow@0.0.7","-mermaid-pdf@0.0.10","flow@1.1.7","sequence-diagrams@1.1.0","graphviz-and-plant-uml@1.0.6","atoc@1.0.3","mcqx@1.1.0","include-codeblock@3.2.2","-fbqx@1.0.0","spoiler@0.0.2","redirect@0.0.7","url-embed@1.0.0","multipart@0.3.0","-lilypond@1.0.3","-ad@0.0.4 ","book-summary-scroll-position-saver@0.0.7","-theme-api@1.1.2","-image-captions@3.1.0 ","-styles-sass@1.1.0","-styles-less@1.0.0","livereload"],"root":".","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy <a href=\"https://www.gitee.com/uav360\">uav360</a> 2020","modify_label":"最后修订:","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-darcula.css"],"ignore":["mermaid","eval-js"],"plugins":["line-numbers"],"cssClasses":"line-numbers","codeBlockExtSyntax":true},"include-csv":{},"disqus":{"shortName":"gitbookuse"},"spoiler":{},"emphasize":{},"ad":{"contentTop":"<div>Ads at the top of the page</div>","contentBottom":"%3Cdiv%3EAds%20at%20the%20bottom%20of%20the%20page%3C/div%3E"},"ace":{},"github":{"url":"https://github.com/uav360"},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"book-summary-scroll-position-saver":{},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"graphviz-and-plant-uml":{"Render":"PlantUMLServer","Server":"http://localhost:8080/plantuml_math/"},"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}},"page-copyright":{"wisdom":"此二维码是本书<a href=\"https://www.gitee.com/uav360/gitbook/\">首页地址</a> <br>第二行可添加其他链接 <br>第二行可添加其他链接 <br>第二行可添加其他链接 <br>第二行可添加其他链接","noPowered":true,"copyright":"Copyright &#169; uav360","style":"normal","isShowQRCode":true,"timeColor":"#666","utcOffset":"8","format":"YYYY-MM-dd hh:mm:ss","signature":"uav360 ®","baseUri":"https://gitee.com/uav360/gitbook/","copyrightColor":"#666","description":"最后修改"},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"multipart":{},"sequence-diagrams":{"theme":"simple"},"flow":{"line-color":"blue"},"graph":{},"donate":{"wechat":"https://zhangjikai.com/resource/weixin.png","alipay":"https://zhangjikai.com/resource/alipay.png","title":"","button":"赏","alipayText":"支付宝打赏","wechatText":"微信打赏"},"sitemap-general":{"prefix":"https://uav360.gitee.io/gitbook/"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"title":"GitBook 使用教程","description":"记录 GitBook 的配置和一些插件的使用","author":"Jikai Zhang","feed_url":"http://gitbook.zhangjikai.com/rss","site_url":"http://gitbook.zhangjikai.com/","managingEditor":"me@zhangjikai.com","webMaster":"me@zhangjikai.com","categories":["gitbook"]},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":true},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/apple-touch-icon.png","appleTouchMore":{"120x120":"assets/images/apple-touch-icon-120x120.png","180x180":"assets/images/apple-touch-icon-180x180.png"}},"theme-comscore":{},"theme-api":{"split":true},"prism-themes":{},"alerts":{},"github-buttons":{"buttons":[{"user":"ardupilot","repo":"ardupilot","type":"fork","size":"small","count":true},{"user":"ardupilot","repo":"ardupilot","type":"star","size":"small","count":true}]},"3-ba":{"configuration":"auto","token":"248APxvxjCZ0VEC43EYrvxqaK4oZExMB"},"mermaid-newface":{"theme":"neutral"},"mathjax-pro":{"forceSVG":false,"version":"2.7.7"},"mathjax":{"forceSVG":false},"local-video":{},"copy-code-button":{},"ga":{"token":"UA-142790104-1"},"mygitalk":{"clientID":"GitHub Application Client ID","clientSecret":"GitHub Application Client Secret","repo":"GitHub repo","owner":"GitHub repo owner","admin":["GitHub repo owner and collaborators, only these guys can initialize github issues"],"distractionFreeMode":false},"url-embed":{},"versions":{"options":[{"value":"http://gitbook.zhangjikai.com","text":"v3.2.2"},{"value":"http://gitbook.zhangjikai.com/v2/","text":"v2.6.4"}]},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"template":"ace","unindent":true,"theme":"monokai"},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":false},"terminal":{"copyButtons":false,"fade":false,"style":"ubuntu"},"simple-mind-map":{"type":"markdown","preset":"colorful","linkShape":"diagonal","autoFit":true},"mermaid-cli":{"chromeDir":"/opt/google/chrome/chrome","chromeArgs":[]},"redirect":{},"edit-link":{"label":"编辑本页源码","base":"https://gitee.com/uav360/gitbook/edit/master"},"mcqx":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"chart":{"type":"c3"},"insert-logo":{"url":"../assets/images/logo.png","style":"background: none; max-height: 64px; min-height: 64px"},"expandable-chapters":{},"search-plus":{},"image-captions":{"caption":"figure _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","align":"left"}},"theme":"default","author":"ZengMin","pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Source Han Sans SC","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"9787121155352","variables":{},"title":"Gitbook Test","language":"zh-hans","links":{"sidebar":{"码云仓库":"https://gitee.com/uav360/gitbook"}},"gitbook":"3.2.3","description":"记录Gitbook的配置和一些插件的使用","direction":"ltr"},"file":{"path":"2-Chapter/7-对象图.md","mtime":"2020-06-22T14:34:29.570Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-23T05:21:25.696Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mathjax-pro/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-newface/mermaid/mermaid.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-newface/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-atoc/atoc.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mcqx/js.cookie.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mcqx/mcqx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-spoiler/spoiler.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-newface/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+

@@ -1,0 +1,1186 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第二章 PlantUML 语法指导手册 · Gitbook Test</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="ZengMin">
+        <meta name="identifier" content="9787121155352" scheme="ISBN">
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-darcula.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-atoc/atoc.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mcqx/mcqx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-spoiler/spoiler.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1-时序图.html" />
+    
+    
+    <link rel="prev" href="../1-Chapter/11-用html标签直接引入Mathjax公式.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../assets/images/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/apple-touch-icon-120x120.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon-180x180.png">
+        
+    
+
+    
+    <link rel="stylesheet" href="../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://gitee.com/uav360/gitbook" target="_blank" class="custom-link">码云仓库</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../1-Chapter/0-README.html">
+            
+                <a href="../1-Chapter/0-README.html">
+            
+                    
+                    第一章 Markdown公式指导手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1-Chapter/1-公式使用参考.html">
+            
+                <a href="../1-Chapter/1-公式使用参考.html">
+            
+                    
+                    第一章 第1节：公式使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1-Chapter/2-矩阵使用参考_矩阵方式.html">
+            
+                <a href="../1-Chapter/2-矩阵使用参考_矩阵方式.html">
+            
+                    
+                    第一章 第2节：矩阵使用参考_矩阵方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1-Chapter/2-矩阵使用参考_数组方式.html">
+            
+                <a href="../1-Chapter/2-矩阵使用参考_数组方式.html">
+            
+                    
+                    第一章 第2节：矩阵使用参考_数组方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1-Chapter/3-方程式序列使用参考.html">
+            
+                <a href="../1-Chapter/3-方程式序列使用参考.html">
+            
+                    
+                    第一章 第3节：方程式序列使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../1-Chapter/4-条件表达式使用参考.html">
+            
+                <a href="../1-Chapter/4-条件表达式使用参考.html">
+            
+                    
+                    第一章 第4节：条件表达式使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../1-Chapter/5-数组与表格使用参考.html">
+            
+                <a href="../1-Chapter/5-数组与表格使用参考.html">
+            
+                    
+                    第一章 第5节：数组与表格使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../1-Chapter/6-连分数使用参考.html">
+            
+                <a href="../1-Chapter/6-连分数使用参考.html">
+            
+                    
+                    第一章 第6节：连分数使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../1-Chapter/7-交换图表使用参考.html">
+            
+                <a href="../1-Chapter/7-交换图表使用参考.html">
+            
+                    
+                    第一章 第7节：交换图表使用参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../1-Chapter/8-特殊的注意事项.html">
+            
+                <a href="../1-Chapter/8-特殊的注意事项.html">
+            
+                    
+                    第一章 第8节：特殊的注意事项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../1-Chapter/9-Katex VS Mathjax.html">
+            
+                <a href="../1-Chapter/9-Katex VS Mathjax.html">
+            
+                    
+                    第一章 第9节：Katex VS Mathjax
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../1-Chapter/10-用html标签直接引入Katex公式.html">
+            
+                <a href="../1-Chapter/10-用html标签直接引入Katex公式.html">
+            
+                    
+                    第一章 第10节：用html标签直接引入Katex公式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../1-Chapter/11-用html标签直接引入Mathjax公式.html">
+            
+                <a href="../1-Chapter/11-用html标签直接引入Mathjax公式.html">
+            
+                    
+                    第一章 第11节：用html标签直接引入Mathjax公式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="0-README.html">
+            
+                <a href="0-README.html">
+            
+                    
+                    第二章 PlantUML 语法指导手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1-时序图.html">
+            
+                <a href="1-时序图.html">
+            
+                    
+                    第二章 第1节：时序图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="2-用例图.html">
+            
+                <a href="2-用例图.html">
+            
+                    
+                    第二章 第2节：用例图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="3-类图.html">
+            
+                <a href="3-类图.html">
+            
+                    
+                    第二章 第3节：类图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="4-活动图.html">
+            
+                <a href="4-活动图.html">
+            
+                    
+                    第二章 第4节：活动图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="5-组件图.html">
+            
+                <a href="5-组件图.html">
+            
+                    
+                    第二章 第5节：组件图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="6-状态图.html">
+            
+                <a href="6-状态图.html">
+            
+                    
+                    第二章 第6节：状态图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="7-对象图.html">
+            
+                <a href="7-对象图.html">
+            
+                    
+                    第二章 第7节：对象图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="8-部署图.html">
+            
+                <a href="8-部署图.html">
+            
+                    
+                    第二章 第8节：部署图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="9-定时图.html">
+            
+                <a href="9-定时图.html">
+            
+                    
+                    第二章 第9节：定时图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="10-线框图形界面.html">
+            
+                <a href="10-线框图形界面.html">
+            
+                    
+                    第二章 第10节：线框图形界面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="11-架构图.html">
+            
+                <a href="11-架构图.html">
+            
+                    
+                    第二章 第11节：架构图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="12-规范和描述语言SDL.html">
+            
+                <a href="12-规范和描述语言SDL.html">
+            
+                    
+                    第二章 第12节：规范和描述语言SDL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="13-Ditaa diagram.html">
+            
+                <a href="13-Ditaa diagram.html">
+            
+                    
+                    第二章 第13节：Ditaa diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="14-甘特图 .html">
+            
+                <a href="14-甘特图 .html">
+            
+                    
+                    第二章 第14节：甘特图 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="15-思维导图.html">
+            
+                <a href="15-思维导图.html">
+            
+                    
+                    第二章 第15节：思维导图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="16-工作分解结构图.html">
+            
+                <a href="16-工作分解结构图.html">
+            
+                    
+                    第二章 第16节：工作分解结构图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="17-数学公式.html">
+            
+                <a href="17-数学公式.html">
+            
+                    
+                    第二章 第17节：数学公式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="18-Entity Relationship diagram.html">
+            
+                <a href="18-Entity Relationship diagram.html">
+            
+                    
+                    第二章 第18节：Entity Relationship diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="19-nwdiag.html">
+            
+                <a href="19-nwdiag.html">
+            
+                    
+                    第二章 第19节：nwdiag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="20-PlantUML绘制23种设计模式.html">
+            
+                <a href="20-PlantUML绘制23种设计模式.html">
+            
+                    
+                    第二章 第20节：PlantUML绘制23种设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../3-Chapter/0-README.html">
+            
+                <a href="../3-Chapter/0-README.html">
+            
+                    
+                    第三章 Mermaid 图表指导手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../3-Chapter/1-Flowchart.html">
+            
+                <a href="../3-Chapter/1-Flowchart.html">
+            
+                    
+                    第三章 第1节：Flowchart
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../3-Chapter/2-Sequence diagram.html">
+            
+                <a href="../3-Chapter/2-Sequence diagram.html">
+            
+                    
+                    第三章 第2节：Sequence diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../3-Chapter/3-Class Diagram.html">
+            
+                <a href="../3-Chapter/3-Class Diagram.html">
+            
+                    
+                    第三章 第3节：Class Diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../3-Chapter/4-State Diagram.html">
+            
+                <a href="../3-Chapter/4-State Diagram.html">
+            
+                    
+                    第三章 第4节：State Diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../3-Chapter/5-Entity Relationship Diagram.html">
+            
+                <a href="../3-Chapter/5-Entity Relationship Diagram.html">
+            
+                    
+                    第三章 第5节：Entity Relationship Diagram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../3-Chapter/6-User Journey.html">
+            
+                <a href="../3-Chapter/6-User Journey.html">
+            
+                    
+                    第三章 第6节：User Journey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../3-Chapter/7-Gantt.html">
+            
+                <a href="../3-Chapter/7-Gantt.html">
+            
+                    
+                    第三章 第7节：Gantt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../3-Chapter/8-Pie Chart.html">
+            
+                <a href="../3-Chapter/8-Pie Chart.html">
+            
+                    
+                    第三章 第8节：Pie Chart
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../3-Chapter/9-gitGraph.html">
+            
+                <a href="../3-Chapter/9-gitGraph.html">
+            
+                    
+                    第三章 第9节：gitGraph
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../3-Chapter/10-安装 mermaid live editor.html">
+            
+                <a href="../3-Chapter/10-安装 mermaid live editor.html">
+            
+                    
+                    第三章 第10节：安装 mermaid live editor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    本书仓库链接
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" >
+            
+                <a target="_blank" href="https://gitee.com/uav360/gitbook/">
+            
+                    
+                    Gitee仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" >
+            
+                <a target="_blank" href="https://github.com/uav360/gitbook/">
+            
+                    
+                    Github仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第二章 PlantUML 语法指导手册</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#&#x7B2C;&#x4E8C;&#x7AE0;-plantuml-&#x8BED;&#x6CD5;&#x6307;&#x5BFC;&#x624B;&#x518C;"><b>1. </b>&#x7B2C;&#x4E8C;&#x7AE0; PlantUML &#x8BED;&#x6CD5;&#x6307;&#x5BFC;&#x624B;&#x518C;</a></li><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#markdown-native-diagrams-with-plantuml"><b>1.1. </b>Markdown native diagrams with PlantUML</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#plantuml-basics-&#x1F468;&#x200D;&#x1F3A8;"><b>1.2. </b>PlantUML Basics &#x1F468;&#x200D;&#x1F3A8;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#reasons-to-love-plantuml-&#x1F917;"><b>1.3. </b>Reasons to love PlantUML &#x1F917;</a></li><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#versioning-&#x1F4E6;"><b>1.3.1. </b>Versioning &#x1F4E6;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#syntax-&#x1F41F;"><b>1.3.2. </b>Syntax &#x1F41F;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#layouting-&#x1F3D7;"><b>1.3.3. </b>Layouting &#x1F3D7;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#share-anywhere-&#x1F4F1;"><b>1.3.4. </b>Share anywhere &#x1F4F1;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#local-development-&#x1F4BB;"><b>1.3.5. </b>Local development &#x1F4BB;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#visual-studio-code"><b>1.3.6. </b>Visual Studio Code</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#render-to-svgpdf"><b>1.3.7. </b>Render to SVG/PDF</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#gitlab-integration"><b>1.3.8. </b>GitLab integration</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#github-integration"><b>1.3.9. </b>GitHub integration</a></li></ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#summary"><b>1.4. </b>Summary</a></li></ul></ul></div><a href="#&#x7B2C;&#x4E8C;&#x7AE0;-plantuml-&#x8BED;&#x6CD5;&#x6307;&#x5BFC;&#x624B;&#x518C;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x7B2C;&#x4E8C;&#x7AE0;-plantuml-&#x8BED;&#x6CD5;&#x6307;&#x5BFC;&#x624B;&#x518C;"><a name="&#x7B2C;&#x4E8C;&#x7AE0;-plantuml-&#x8BED;&#x6CD5;&#x6307;&#x5BFC;&#x624B;&#x518C;" class="anchor-navigation-ex-anchor" href="#&#x7B2C;&#x4E8C;&#x7AE0;-plantuml-&#x8BED;&#x6CD5;&#x6307;&#x5BFC;&#x624B;&#x518C;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x7B2C;&#x4E8C;&#x7AE0; PlantUML &#x8BED;&#x6CD5;&#x6307;&#x5BFC;&#x624B;&#x518C;</h1>
+<h2 id="markdown-native-diagrams-with-plantuml"><a name="markdown-native-diagrams-with-plantuml" class="anchor-navigation-ex-anchor" href="#markdown-native-diagrams-with-plantuml"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. Markdown native diagrams with PlantUML</h2>
+<p>2018-07-31 / 9 MIN READ / <a href="https://blog.anoff.io/author/anoff" target="_blank">ANOFF</a></p>
+<p>This post covers PlantUML basics and how it can be used in GitLab or GitHub projects as well as a seamless local development environment using Visual Studio Code. I have been wanting to write this post for months. Lately I have been using PlantUML extensively at work but also in my private projects. You can see it being used in my <a href="https://github.com/anoff/plantbuddy#main-features" target="_blank">plantbuddy</a> and <a href="https://github.com/anoff/techradar#design" target="_blank">techradar</a> projects on GitHub. Using it in different places and for various purposes I came across a bunch of issues that I want to share in this post.</p>
+<h2 id="plantuml-basics-&#x1F468;&#x200D;&#x1F3A8;"><a name="plantuml-basics-&#x1F468;&#x200D;&#x1F3A8;" class="anchor-navigation-ex-anchor" href="#plantuml-basics-&#x1F468;&#x200D;&#x1F3A8;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. PlantUML Basics &#x1F468;&#x200D;&#x1F3A8;</h2>
+<p>For those that do not know <a href="http://plantuml.com/" target="_blank">PlantUML</a>: It is an open source tool that allows you to define UML diagrams with plain text. There are different <a href="http://plantuml.com/sitemap-language-specification" target="_blank">diagram types</a> available being described with custom syntax but following a common scheme. This post will not go into the details of each of those diagram types because the PlantUML website does a pretty good job at describing <a href="http://plantuml.com/sequence-diagram" target="_blank">sequence</a>, <a href="http://plantuml.com/component-diagram" target="_blank">component</a>, <a href="http://plantuml.com/activity-diagram-beta" target="_blank">activity</a> and the other diagram types.</p>
+<p>A basic component diagram showing data flow can be built using the following markup:</p>
+<pre class="language-"><code class="lang-markdown">@startuml component
+actor client
+node app
+database db
+
+db -&gt; app
+app -&gt; client
+@enduml
+</code></pre>
+<p><img src="assets/images/0-README/component.svg" alt="basic component diagram showing data flowing from a database via an app to a client"></p>
+<h2 id="reasons-to-love-plantuml-&#x1F917;"><a name="reasons-to-love-plantuml-&#x1F917;" class="anchor-navigation-ex-anchor" href="#reasons-to-love-plantuml-&#x1F917;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. Reasons to love PlantUML &#x1F917;</h2>
+<h3 id="versioning-&#x1F4E6;"><a name="versioning-&#x1F4E6;" class="anchor-navigation-ex-anchor" href="#versioning-&#x1F4E6;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1. Versioning &#x1F4E6;</h3>
+<p>A very important aspect for developing software and writing documentation is to keep it in sync. One part is to update documentation if the code itself is updated. Another important part is versioning - usually software is versioned using <code>git</code> or similar systems. By putting the documentation into the same repository as the code you make sure to always look at the correct state of documentation for a respective point in time.</p>
+<p>For that reason I love putting all my documentation either within the sourcecode as comments or as Markdown files next to the sourcecode. One thing I was always lacking with this approach is visualizing things. Putting PowerPoint/Keynote/Visio/Enterprise Architect.. files into a repository does make sure your diagrams are always versioned with the code - but they are not browsable in Web UIs. Come PlantUML and GitLab rendering to the rescue: GitLab allows you to <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/administration/integration/plantuml.md" target="_blank">inline PlantUML diagrams</a> directly into your Markdown files and they will be rendered on the fly when viewing the files in the browser.</p>
+<p>One other benefit PlantUML has over the mentioned tools is that by defining your diagrams in plain text you make them diff-able in pull requests. Reviewers can always see what changes have been made and easily compare changes to the diagram with changes made inside the code.</p>
+<h3 id="syntax-&#x1F41F;"><a name="syntax-&#x1F41F;" class="anchor-navigation-ex-anchor" href="#syntax-&#x1F41F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.2. Syntax &#x1F41F;</h3>
+<p>The basic syntax of PlantUML is very concise and builds a good foundation for the different diagram types. It is also well very smart in the way that it allows diagrams to be written with different flavors e.g. you can declare/instantiate all nodes at the top, but if you do not declare them they will be inferred automatically. Same goes for <a href="http://plantuml.com/preprocessing" target="_blank">macros and definitions</a> that allow you to compose larger diagrams or a common library for your team.</p>
+<p>I recently created a <a href="https://blog.anoff.io/puml-cheatsheet.pdf" target="_blank">PlantUML Cheatsheet</a> for a lot of useful tricks - it does however not cover the very basics of PlantUML syntax. You can browse the <a href="https://github.com/anoff/blog/raw/master/img/assets/plantuml/puml-cheatsheet.pdf" target="_blank">latest version</a> or the <a href="https://github.com/anoff/blog/blob/master/img/assets/plantuml/puml-cheatsheet.tex" target="_blank">LaTeX sourcecode</a> on GitHub.</p>
+<h3 id="layouting-&#x1F3D7;"><a name="layouting-&#x1F3D7;" class="anchor-navigation-ex-anchor" href="#layouting-&#x1F3D7;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.3. Layouting &#x1F3D7;</h3>
+<p>Compared with WYSIWYG editors PlantUML diagrams only define components and their relationship but not the actual layout of the diagram. Instead the diagram is inferred by a deterministic algorithm in the rendering process. This is beneficial when specifying the diagram because you only focus on the content - comparable to writing a LaTeX document. Sadly the layouting engine is not as good as you sometimes wish it to be and especially in component diagrams with 10+ nodes you might end up spending a lot of time enforcing specific layouts manually.</p>
+<p>For sequence and activity diagrams the automatic layouting works great even for very large diagrams. After you built a few diagrams and notice how easy it is to just move lines of code up and down and have changes in the code immediately reflect in your documentation you will love the automatic layouting.</p>
+<h3 id="share-anywhere-&#x1F4F1;"><a name="share-anywhere-&#x1F4F1;" class="anchor-navigation-ex-anchor" href="#share-anywhere-&#x1F4F1;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.4. Share anywhere &#x1F4F1;</h3>
+<p>If you want to <em>freeze</em> a diagram version and send it to someone outside your organization you can simply send them an insanely long url (e.g. <a href="http://www.plantuml.com/plantuml/png/5Son3G8n34RXtbFyb1GiG9MM6H25XGsnH9p8SGgslrpxzFILcHovse-yYw8QdlJl2v--N93rJ2Bg4EDlSBlG0pn6wDiu5NiDcAU6piJzTgKN5NNPu040" target="_blank">http://www.plantuml.com/plantuml/png/5Son3G8n34RXtbFyb1GiG9MM6H25XGsnH9p8SGgslrpxzFILcHovse-yYw8QdlJl2v&#x2013;N93rJ2Bg4EDlSBlG0pn6wDiu5NiDcAU6piJzTgKN5NNPu040</a>) that encodes the entire diagram definition. You can also just embed this URL inside an HTML <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span><span class="token punctuation">&gt;</span></span></code> tag. If anyone ever needs to work with the image all you have to do is swap <code>/plantuml/png</code> to <code>/plantuml/uml</code> and you will see the <a href="http://www.plantuml.com/plantuml/uml/5Son3G8n34RXtbFyb1GiG9MM6H25XGsnH9p8SGgslrpxzFILcHovse-yYw8QdlJl2v--N93rJ2Bg4EDlSBlG0pn6wDiu5NiDcAU6piJzTgKN5NNPu040" target="_blank">definition</a> of the diagram.</p>
+<p>This gives the entire PlantUML toolstack an extremely versatile way of passing information as well as viewable images.</p>
+<h3 id="local-development-&#x1F4BB;"><a name="local-development-&#x1F4BB;" class="anchor-navigation-ex-anchor" href="#local-development-&#x1F4BB;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.5. Local development &#x1F4BB;</h3>
+<p>The fastest, platform agnostic and easiest way to start creating PlantUML diagrams is using their <a href="http://www.plantuml.com/plantuml/uml/SoWkIImgAStDuShBJqbLA4ajBk5oICrB0Oe00000" target="_blank">online editor</a> (btw. you can easily host it on prem using the <a href="https://hub.docker.com/r/plantuml/plantuml-server/" target="_blank">plantuml-server Docker image</a>). This is fine for creating simple diagrams with a few nodes but larger diagrams require a lot of <em>previewing</em> which is annoying in the online editor.</p>
+<p><em>If you have any other local setups please let me know via <a href="https://twitter.com/anoff_io" target="_blank">Twitter</a></em></p>
+<h3 id="visual-studio-code"><a name="visual-studio-code" class="anchor-navigation-ex-anchor" href="#visual-studio-code"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.6. Visual Studio Code</h3>
+<blockquote>
+<p>In case you already use VS Code this is a no brainer to set up. Otherwise you might seriously want to consider using it for the purpose of editing PlantUML diagrams (in Markdown) only because it is a super smooth experience.</p>
+</blockquote>
+<p>All you need to do is to get the <a href="https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml" target="_blank">PlantUML extension</a> to enable codes native <a href="https://code.visualstudio.com/docs/languages/markdown" target="_blank">Markdown preview feature</a> to also parse inline diagrams.</p>
+<p><img src="assets/images/0-README/code-rendering.png" alt="Screenshot of Visual Studio Code showing rendered PlantUML diagram in Markdown preview"></p>
+<p>By default the plugin requires a local PlantUML process to be running and accepting the rendering requests. I recommend switching it to use a server for rendering; this could be the official plantuml.com server, an on premise instance or a locally running <a href="https://hub.docker.com/r/plantuml/plantuml-server/" target="_blank">container</a>. After installing the plugin go to the VS Code options (<code>ctrl/&#x2318; + ,</code>) and change the <code>plantuml.render</code> property.</p>
+<pre class="language-"><code class="lang-json"><span class="token comment">// PlantUMLServer: Render diagrams by server which is specified with </span><span class="token string">&quot;plantuml.server&quot;</span>. It&apos;s much faster<span class="token punctuation">,</span> but requires a server.
+<span class="token comment">// Local is the default configuration.</span>
+<span class="token property">&quot;plantuml.render&quot;</span><span class="token operator">:</span> <span class="token string">&quot;PlantUMLServer&quot;</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Plantuml server to generate UML diagrams on-the-fly.</span>
+<span class="token property">&quot;plantuml.server&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://www.plantuml.com/plantuml&quot;</span><span class="token punctuation">,</span>
+</code></pre>
+<p>If you ever go off the grid and still want to work remember to <code>docker run -d -p 8080:8080 plantuml/plantuml-server:jetty</code> while you still have an internet connection. The image is <code>~250MB</code> to download. Afterwards set <code>plantuml.server</code> to <code>http://localhost:8080/</code> and you&#x2019;re set for an offline adventure.</p>
+<p><em>On my MacBook I sometimes experience a lot of CPU consumption from the running container - even when not actively rendering. Restarting the container helps &#x1F937;&#x200D;</em></p>
+<h3 id="render-to-svgpdf"><a name="render-to-svgpdf" class="anchor-navigation-ex-anchor" href="#render-to-svgpdf"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.7. Render to SVG/PDF</h3>
+<blockquote>
+<p>This method only works if diagrams are defined explicitly in files and not inlined into Markdown.</p>
+</blockquote>
+<p>To write this blog post and build the <a href="https://blog.anoff.io/puml-cheatsheet.pdf" target="_blank">Cheatsheet</a> I played around with non-realtime ways of rendering PlantUML diagrams into images. You can use the <a href="https://github.com/anoff/blog/blob/master/img/assets/plantuml/Makefile" target="_blank">Makefile</a> and <a href="https://github.com/anoff/blog/blob/master/img/assets/plantuml/diagrams/convert.sh" target="_blank">Shell script</a> to convert an entire <a href="https://github.com/anoff/blog/tree/master/img/assets/plantuml/diagrams" target="_blank">folder</a> of PlantUML diagrams with <code>.puml</code> extension into <code>.svg</code> and <code>.pdf</code> <a href="https://github.com/anoff/blog/tree/master/img/assets/plantuml/diagrams/dist" target="_blank">files</a>.</p>
+<p>The script essentially runs the diagram definition through a dockerized PlantUML process which outputs an <code>.svg</code> and then uses Inkscape to create a <code>.pdf</code> file for importing it into LaTeX documents for example.</p>
+<pre class="language-"><code class="lang-sh"><span class="token shebang important">#!/bin/sh</span>
+<span class="token comment"># converts all puml files to svg</span>
+
+<span class="token assign-left variable">BASEDIR</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">dirname</span> <span class="token string">&quot;<span class="token variable">$0</span>&quot;</span><span class="token variable">)</span></span>
+<span class="token function">mkdir</span> -p <span class="token variable">$BASEDIR</span>/dist
+<span class="token function">rm</span> <span class="token variable">$BASEDIR</span>/dist/*
+<span class="token keyword">for</span> <span class="token for-or-select variable">FILE</span> <span class="token keyword">in</span> <span class="token variable">$BASEDIR</span>/*.puml<span class="token punctuation">;</span> <span class="token keyword">do</span>
+  <span class="token builtin class-name">echo</span> Converting <span class="token variable">$FILE</span><span class="token punctuation">..</span>
+  <span class="token assign-left variable">FILE_SVG</span><span class="token operator">=</span><span class="token variable">${FILE<span class="token operator">/</span><span class="token operator">/</span>puml<span class="token operator">/</span>svg}</span>
+  <span class="token assign-left variable">FILE_PDF</span><span class="token operator">=</span><span class="token variable">${FILE<span class="token operator">/</span><span class="token operator">/</span>puml<span class="token operator">/</span>pdf}</span>
+  <span class="token function">cat</span> <span class="token variable">$FILE</span> <span class="token operator">|</span> docker run --rm -i think/plantuml <span class="token operator">&gt;</span> <span class="token variable">$FILE_SVG</span>
+  docker run --rm -v <span class="token environment constant">$PWD</span>:/diagrams productionwentdown/ubuntu-inkscape inkscape /diagrams/<span class="token variable">$FILE_SVG</span> --export-area-page --without-gui --export-pdf<span class="token operator">=</span>/diagrams/<span class="token variable">$FILE_PDF</span> <span class="token operator">&amp;&gt;</span> /dev/null
+<span class="token keyword">done</span>
+<span class="token function">mv</span> <span class="token variable">$BASEDIR</span>/*.svg <span class="token variable">$BASEDIR</span>/dist/
+<span class="token function">mv</span> <span class="token variable">$BASEDIR</span>/*.pdf <span class="token variable">$BASEDIR</span>/dist/
+<span class="token builtin class-name">echo</span> Done
+</code></pre>
+<h3 id="gitlab-integration"><a name="gitlab-integration" class="anchor-navigation-ex-anchor" href="#gitlab-integration"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.8. GitLab integration</h3>
+<blockquote>
+<p>This feature is currently only available with on-prem installations of GitLab, enabling it on gitlab.com is <a href="https://gitlab.com/gitlab-com/infrastructure/issues/2163" target="_blank">an open issue</a>. See the GitHub integration for a workaround.</p>
+</blockquote>
+<p>Using PlantUML within GitLab is super fun. All you have to do is <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/administration/integration/plantuml.md" target="_blank">set up</a> a render server to use and you can just commit Markdown files with inlined PlantUML diagrams and they will render for everyone visiting the GitLab web UI.</p>
+<p>What&#x2019;s great is that this does not only works in Markdown files committed into a git repository but in all other fields within GitLab that render markdown - virtually everything. You can have small diagrams helping illustrate things in issues as well.</p>
+<p><img src="assets/images/0-README/puml-issue.png" alt="Screenshot of PlantUML syntax in a GitLab issue"></p>
+<p><img src="assets/images/0-README/puml-issue-rendered.png" alt="Rendered PlantUML diagram in a GitLab issue"></p>
+<h3 id="github-integration"><a name="github-integration" class="anchor-navigation-ex-anchor" href="#github-integration"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.9. GitHub integration</h3>
+<p>There is no native PlantUML integration for GitHub and gitlab.com available. To maintain the advantages listed above it is obviously not a valid workaround to just render the files locally and commit them into git.</p>
+<p>Instead make use of the PlantUML <a href="http://plantuml.com/server" target="_blank">proxy service</a> as described in <a href="https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github" target="_blank">this stackoverflow discussion</a>. The way this works is that instead of passing the PlantUML server the diagram content within the URL we define a <em>remote URL</em> where the content can be fetched from e.g. <code>http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt</code>. This URL can be embedded in an HTML <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span><span class="token punctuation">&gt;</span></span></code> tag or within Markdown image syntax <code>![]()</code>. To leverage this feature when using GitHub, simply point the <em>remote URL</em> to a raw link of the PlantUML diagram in your repository.</p>
+<p>You can see this method in action in the <a href="https://github.com/anoff/plantbuddy#main-features" target="_blank">plantbuddy</a> and <a href="https://github.com/anoff/techradar#design" target="_blank">techradar</a> projects of my GitHub account.</p>
+<p>The following diagram shows what will happen when you open a Markdown page hosted on GitHub that contains such a link:</p>
+<p><img src="assets/images/0-README/plantuml-proxy.svg" alt="sequence diagram showing how PlantUML proxy service works"></p>
+<p><a href="https://github.com/anoff/plantbuddy/blame/master/readme.md#L12" target="_blank">This example</a> shows that adding a <code>?cache=no</code> might be a good idea because of GitHubs Camo <a href="http://forum.plantuml.net/7163/githubs-aggressive-caching-prevent-diagrams-updated-markdown" target="_blank">caching strategy</a> which will prevent your images from updating if you change the sourcecode.</p>
+<p>The downside of this approach is that it will always render the latest commmit in your repository even if you browse old versions. If browsing old versions is a <em>strong</em> requirement for you when using an integration with GitHub then you might need to build your own plugin/renderer or optimize the local development environment because after all the correct diagram version will always be with the sourcecode you checked out.</p>
+<p>To use the proxy service integration simply use:</p>
+<pre class="language-"><code>![cached image](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt)
+
+![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt)
+</code></pre><h2 id="summary"><a name="summary" class="anchor-navigation-ex-anchor" href="#summary"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. Summary</h2>
+<p>There are two fundamental ways of keeping PlantUML diagrams</p>
+<ol>
+<li>inline into Markdown</li>
+<li>keep as individual <code>.puml</code> files</li>
+</ol>
+<p>Depending on your toolstack one of those should be your preferred option to work with diagrams in your repository. It is highly recommend to keep diagrams as close to the code as possible and not create artificial documentation repositories.</p>
+<p>This post covered how to write and render files locally in <strong>VS Code</strong>, using <strong>Docker</strong> containers and how to integrate into <strong>GitLab on prem</strong> as well as public <strong>GitHub</strong> and <strong>GitLab</strong> instances.</p>
+<p>There is a lot more to tell about PlantUML but I hope this article gave you enough infos to get started on whatever platform you are using. I recommend this <a href="https://blog.anoff.io/puml-cheatsheet.pdf" target="_blank">PlantUML Cheatsheet</a> which will help you to cover an even wider range of use cases.</p>
+<p>Tell me about your experiences with PlantUML or alternative integrations on <a href="https://twitter.com/anoff_io" target="_blank">Twitter &#x1F426;</a></p>
+<script type="text/javascript">var className='atoc';</script>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../1-Chapter/11-用html标签直接引入Mathjax公式.html" class="navigation navigation-prev " aria-label="Previous page: 第一章 第11节：用html标签直接引入Mathjax公式">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1-时序图.html" class="navigation navigation-next " aria-label="Next page: 第二章 第1节：时序图">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第二章 PlantUML 语法指导手册","level":"1.3","depth":1,"next":{"title":"第二章 第1节：时序图","level":"1.3.1","depth":2,"path":"2-Chapter/1-时序图.md","ref":"2-Chapter/1-时序图.md","articles":[]},"previous":{"title":"第一章 第11节：用html标签直接引入Mathjax公式","level":"1.2.12","depth":2,"path":"1-Chapter/11-用html标签直接引入Mathjax公式.md","ref":"1-Chapter/11-用html标签直接引入Mathjax公式.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default@1.0.7","fontsettings@2.0.0","-sharing@1.0.2","-lunr@1.2.0","-search@2.2.1 ","-highlight@2.0.3","-katex@1.1.4","-katex-pp@1.0.2","-mathjax@1.1.2","mathjax-pro@0.0.6","-mermaid@0.0.9","-mermaid-gb3@2.1.0","todo@0.1.3 ","-disqus@0.1.0","search-plus@1.0.3","prism@2.4.0","prism-themes@0.0.2","-prism-ext@3.1.3","advanced-emoji@0.2.2","-github@2.0.0","-github-buttons@3.0.0","-include-codeblock@3.2.2","ace@0.3.2","emphasize@1.1.0 ","splitter@0.0.8","-plantuml@0.0.15","graph@0.1.0","chart@0.2.2","sharing-plus@0.0.2","-tbfed-pagefooter@0.0.1","expandable-chapters@0.2.0 ","-expandable-chapters-small@0.1.7","-toggle-chapters@0.0.3","sectionx@3.1.0","-ga@1.0.1","3-ba@0.9.0","-donate@1.0.2 ","local-video@1.0.1","-simple-page-toc@0.1.2 ","anchors@0.7.1","anchor-navigation-ex@1.0.14","edit-link@2.0.2","sitemap-general@0.1.1","favicon@0.0.2","terminal@0.3.2","copy-code-button@0.0.2 ","alerts@0.2.0","include-csv@0.3.0","-musicxml@1.0.2","-klipse@1.2.0","-versions-select@0.1.1","-rss@3.0.2","theme-comscore@0.0.3","-summary@1.0.0","-code@0.1.0","-simple-mind-map@0.2.4","-accordion@1.1.3","hide-element@0.0.4","-back-to-top-button@0.1.4","-navigator@1.1.1","-chapter-fold@0.0.4","-insert-logo@0.1.5","popup@0.0.1","-pageview-count@1.0.1","-custom-favicon@0.0.4","-mygitalk@0.2.6","-page-copyright@1.0.8","-latex-codecogs@1.0.1","-autocover@2.0.1","-mermaid-full@0.5.1","mermaid-newface@3.0.4","-mermaid-c84@2.1.6","-mermaid-cli@1.0.14","-mermaid-v8@0.3.0","-mermaid-flow@0.0.7","-mermaid-pdf@0.0.10","flow@1.1.7","sequence-diagrams@1.1.0","graphviz-and-plant-uml@1.0.6","atoc@1.0.3","mcqx@1.1.0","include-codeblock@3.2.2","-fbqx@1.0.0","spoiler@0.0.2","redirect@0.0.7","url-embed@1.0.0","multipart@0.3.0","-lilypond@1.0.3","-ad@0.0.4 ","book-summary-scroll-position-saver@0.0.7","-theme-api@1.1.2","-image-captions@3.1.0 ","-styles-sass@1.1.0","-styles-less@1.0.0","livereload"],"root":".","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy <a href=\"https://www.gitee.com/uav360\">uav360</a> 2020","modify_label":"最后修订:","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-darcula.css"],"ignore":["mermaid","eval-js"],"plugins":["line-numbers"],"cssClasses":"line-numbers","codeBlockExtSyntax":true},"include-csv":{},"disqus":{"shortName":"gitbookuse"},"spoiler":{},"emphasize":{},"ad":{"contentTop":"<div>Ads at the top of the page</div>","contentBottom":"%3Cdiv%3EAds%20at%20the%20bottom%20of%20the%20page%3C/div%3E"},"ace":{},"github":{"url":"https://github.com/uav360"},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"book-summary-scroll-position-saver":{},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"graphviz-and-plant-uml":{"Render":"PlantUMLServer","Server":"http://localhost:8080/plantuml_math/"},"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}},"page-copyright":{"wisdom":"此二维码是本书<a href=\"https://www.gitee.com/uav360/gitbook/\">首页地址</a> <br>第二行可添加其他链接 <br>第二行可添加其他链接 <br>第二行可添加其他链接 <br>第二行可添加其他链接","noPowered":true,"copyright":"Copyright &#169; uav360","style":"normal","isShowQRCode":true,"timeColor":"#666","utcOffset":"8","format":"YYYY-MM-dd hh:mm:ss","signature":"uav360 ®","baseUri":"https://gitee.com/uav360/gitbook/","copyrightColor":"#666","description":"最后修改"},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"multipart":{},"sequence-diagrams":{"theme":"simple"},"flow":{"line-color":"blue"},"graph":{},"donate":{"wechat":"https://zhangjikai.com/resource/weixin.png","alipay":"https://zhangjikai.com/resource/alipay.png","title":"","button":"赏","alipayText":"支付宝打赏","wechatText":"微信打赏"},"sitemap-general":{"prefix":"https://uav360.gitee.io/gitbook/"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"title":"GitBook 使用教程","description":"记录 GitBook 的配置和一些插件的使用","author":"Jikai Zhang","feed_url":"http://gitbook.zhangjikai.com/rss","site_url":"http://gitbook.zhangjikai.com/","managingEditor":"me@zhangjikai.com","webMaster":"me@zhangjikai.com","categories":["gitbook"]},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":true},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/apple-touch-icon.png","appleTouchMore":{"120x120":"assets/images/apple-touch-icon-120x120.png","180x180":"assets/images/apple-touch-icon-180x180.png"}},"theme-comscore":{},"theme-api":{"split":true},"prism-themes":{},"alerts":{},"github-buttons":{"buttons":[{"user":"ardupilot","repo":"ardupilot","type":"fork","size":"small","count":true},{"user":"ardupilot","repo":"ardupilot","type":"star","size":"small","count":true}]},"3-ba":{"configuration":"auto","token":"248APxvxjCZ0VEC43EYrvxqaK4oZExMB"},"mermaid-newface":{"theme":"neutral"},"mathjax-pro":{"forceSVG":false,"version":"2.7.7"},"mathjax":{"forceSVG":false},"local-video":{},"copy-code-button":{},"ga":{"token":"UA-142790104-1"},"mygitalk":{"clientID":"GitHub Application Client ID","clientSecret":"GitHub Application Client Secret","repo":"GitHub repo","owner":"GitHub repo owner","admin":["GitHub repo owner and collaborators, only these guys can initialize github issues"],"distractionFreeMode":false},"url-embed":{},"versions":{"options":[{"value":"http://gitbook.zhangjikai.com","text":"v3.2.2"},{"value":"http://gitbook.zhangjikai.com/v2/","text":"v2.6.4"}]},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"template":"ace","unindent":true,"theme":"monokai"},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":false},"terminal":{"copyButtons":false,"fade":false,"style":"ubuntu"},"simple-mind-map":{"type":"markdown","preset":"colorful","linkShape":"diagonal","autoFit":true},"mermaid-cli":{"chromeDir":"/opt/google/chrome/chrome","chromeArgs":[]},"redirect":{},"edit-link":{"label":"编辑本页源码","base":"https://gitee.com/uav360/gitbook/edit/master"},"mcqx":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"chart":{"type":"c3"},"insert-logo":{"url":"../assets/images/logo.png","style":"background: none; max-height: 64px; min-height: 64px"},"expandable-chapters":{},"search-plus":{},"image-captions":{"caption":"figure _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","align":"left"}},"theme":"default","author":"ZengMin","pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Source Han Sans SC","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"9787121155352","variables":{},"title":"Gitbook Test","language":"zh-hans","links":{"sidebar":{"码云仓库":"https://gitee.com/uav360/gitbook"}},"gitbook":"3.2.3","description":"记录Gitbook的配置和一些插件的使用","direction":"ltr"},"file":{"path":"2-Chapter/0-README.md","mtime":"2020-06-22T14:34:29.570Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-23T05:21:25.696Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mathjax-pro/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-newface/mermaid/mermaid.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-newface/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-atoc/atoc.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mcqx/js.cookie.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mcqx/mcqx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-spoiler/spoiler.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-newface/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+

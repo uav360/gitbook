@@ -853,7 +853,7 @@ body{
 .pdf-footer{
   margin-top:20px;
   padding-top:10px;
-  border-top:1px solid #ddd;
+  border-top:1px solid #eee;
   color:#aaa
 }
 
@@ -867,7 +867,7 @@ body{
 .pdf-header{
   margin-top:20px;
   padding-bottom:10px;
-  border-bottom:1px solid #ddd;
+  border-bottom:1px solid #eee;
   font-size:.85em;
   color:#aaa  /*页眉标题的颜色*/
 }
